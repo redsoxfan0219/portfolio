@@ -43,4 +43,4 @@ Finally, you will be prompted to name your preferred file extension. `.csv`, `.j
 
 ## Source Code
 
-The source code for `adamic` can be found at [github.com/redsoxfan0219/adamic](https://github.com/redsoxfan0219/adamic).
+The source code for `adamic` can be found at [this GitHub repository](https://github.com/redsoxfan0219/adamic).

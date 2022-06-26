@@ -1,7 +1,7 @@
 ---
 title: "Exploratory Data Analysis"
-description: ""
-lead: ""
+description: "Samples of past EDA"
+lead: "Samples of past EDA"
 date: 2022-06-23T01:05:07-04:00
 lastmod: 2022-06-23T01:05:07-04:00
 draft: false
@@ -12,3 +12,28 @@ menu:
 weight: 20
 toc: true
 ---
+<script type="text/javascript">
+  document.getElementById('ipynb').onload = function() {
+    window.onscroll = function ()
+    {
+    $("#ipynb").show();
+    };
+    </script>
+
+Double-click the `README.md` in the interactive window for more information.
+
+<iframe
+  id="ipynb"
+  loading="lazy"
+  style="position:relative;right:200px;"
+  id="bmap"
+  src="https://redsoxfan0219.github.io/jupyterdemo/lab/index.html?display=0"
+  width="1000px"
+  height="500px"
+  onload="scroll(0,screen.height);"
+  frameborder="0"
+  allowfullscreen
+>
+</iframe>
+
+For other examples of my data science projects, check out [this GitHub repository](https://github.com/redsoxfan0219/dataquest_projects).

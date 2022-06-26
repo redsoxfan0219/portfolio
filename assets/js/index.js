@@ -69,9 +69,9 @@ Source:
     document: {
       id: 'id',
       store: [
-        "href", "title", "description"
+        "href", "title", "description", "lead"
       ],
-      index: ["title", "description", "content"]
+      index: ["title", "description", "lead"]
     }
   });
 
@@ -94,7 +94,7 @@ Source:
 
   // https://discourse.gohugo.io/t/range-length-or-last-element/3803/2
 
-  {{ $list := (where .Site.Pages "Section" "docs") -}}
+  {{ $list := ( .Site.Pages) -}}
   {{ $len := (len $list) -}}
 
   {{ range $index, $element := $list -}}
