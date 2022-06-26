@@ -16,16 +16,11 @@ toc: true
 Double-click the `README.md` in the interactive window for more information.
 
 <iframe
-  id="ipynb"
-  loading="lazy"
   style="position:relative;right:200px;"
   id="bmap"
-  src="https://redsoxfan0219.github.io/jupyterdemo/lab/index.html?display=0"
+  src="https://redsoxfan0219.github.io/jupyterdemo/lab/index.html"
   width="1000px"
   height="500px"
-  onload="scroll(0,screen.height);"
-  frameborder="0"
-  allowfullscreen
 >
 </iframe>
 
