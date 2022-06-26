@@ -1,0 +1,96 @@
+[[main]]
+  name = "Docs"
+  url = "/docs/"
+  weight = 10
+
+[[main]]
+  name = "Code"
+  url = "/code/"
+  weight = 20
+
+[[main]]
+  name = "Graphics"
+  url = "/graphics/"
+  weight = 30
+
+[[main]]
+  name = "Credentials"
+  weight = 40
+  identifier = "credentials"
+  url = "https://github.com/redsoxfan0219/Certificates_and_Credentials"
+
+[[main]]
+  name = "Resume"
+  weight = 50
+  identifier = "resume"
+  url = "/resume/"
+
+[[main]]
+  name = "Personal"
+  weight = 60
+  identifier = "personal"
+  url = "/personal/"
+
+[[main]]
+  name = "Data Dictionary Creator"
+  weight = 10
+  identifier = "data-dictionary-creator"
+  url = "/code/datadictionarycreator"
+  parent = "Code"
+
+[[main]]
+  name = "RenText"
+  weight = 30
+  identifier = "RenText"
+  url = "code/rentext/"
+  parent = "Code"
+
+[[main]]
+  name = "Exploratory Data Analysis"
+  weight = 20
+  identifier = "exploratorydatanalysis"
+  url = "/code/exploratorydataanalysis/"
+  parent = "Code"
+
+[[main]]
+  name = "API Documentation"
+  weight = 10
+  identifier = "api-documentation"
+  url = "/docs/api-documentation/"
+  parent = "Docs"
+
+[[main]]
+  name = "Model Documentation"
+  weight = 20
+  identifier = "model-documentation"
+  url = "/docs/model-documentation/"
+  parent = "Docs"
+
+[[main]]
+  name = "Package Documentation"
+  weight = 30
+  identifier = "package-documentation"
+  url = "/docs/package-documentation/"
+  parent = "Docs"
+
+[[main]]
+  name = "Process Flow"
+  weight = 20
+  identifier = "processflow"
+  url = "graphics/processflow/"
+  parent = "Graphics"
+
+[[main]]
+  name = "LinkedIn Post"
+  weight = 30
+  identifier = "linkedinpost"
+  url = "/graphics/linkedinpost/"
+  parent = "Graphics"
+
+
+[[social]]
+  name = "GitHub"
+  pre = "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-github\"><path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path></svg>"
+  url = "https://github.com/redsoxfan0219"
+  post = "v0.1.0"
+  weight = 10

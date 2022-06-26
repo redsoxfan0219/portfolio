@@ -1,0 +1,2 @@
+canonifyURLs = true
+baseURL = "https://benmoran.netlify.app"
