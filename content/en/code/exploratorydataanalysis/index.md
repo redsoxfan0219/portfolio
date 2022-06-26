@@ -17,7 +17,6 @@ Double-click the `README.md` in the interactive window for more information.
 
 <iframe
   style="position:relative;right:200px;"
-  id="bmap"
   src="https://redsoxfan0219.github.io/jupyterdemo/lab/index.html"
   width="1000px"
   height="500px"
