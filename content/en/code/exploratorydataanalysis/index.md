@@ -12,13 +12,6 @@ menu:
 weight: 20
 toc: true
 ---
-<script type="text/javascript">
-  document.getElementById('ipynb').onload = function() {
-    window.onscroll = function ()
-    {
-    $("#ipynb").show();
-    };
-    </script>
 
 Double-click the `README.md` in the interactive window for more information.
 
