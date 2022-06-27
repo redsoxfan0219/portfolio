@@ -16,11 +16,11 @@ toc: true
 Double-click the `README.md` in the interactive window for more information.
 
 <iframe
-  style="position:relative;right:200px;"
+  style="position:relative;right:225px;"
   src="https://redsoxfan0219.github.io/jupyterdemo/lab/index.html"
   width="1000px"
   height="500px"
 >
 </iframe>
 
-For other examples of my data science projects, check out [this GitHub repository](https://github.com/redsoxfan0219/dataquest_projects).
+For other examples of my data science projects, see [this GitHub repository](https://github.com/redsoxfan0219/dataquest_projects).

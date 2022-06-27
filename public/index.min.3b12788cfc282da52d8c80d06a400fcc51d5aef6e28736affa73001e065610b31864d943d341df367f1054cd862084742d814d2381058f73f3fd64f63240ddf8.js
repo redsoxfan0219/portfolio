@@ -10,7 +10,7 @@ Finally, you will be prompted to name your preferred file extension. .csv, .json
 Source Code # The source code for adamic can be found at this GitHub repository.
 `}),e.add({id:1,href:"/docs/api-documentation/",title:"API Documentation",description:"A sample of my API Documentation",content:`Coming soon!
 `}),e.add({id:2,href:"/code/exploratorydataanalysis/",title:"Exploratory Data Analysis",description:"Samples of past EDA",content:`Double-click the README.md in the interactive window for more information.
-For other examples of my data science projects, check out this GitHub repository.
+For other examples of my data science projects, see this GitHub repository.
 `}),e.add({id:3,href:"/docs/model-documentation/",title:"Model Documentation",description:"A sample of AI/ML Model Documentation",content:`Below is an example of AI-ML documentation that I\u0026rsquo;ve created in the past. The content of this text is designed meet expectations set in the Federal Reserve\u0026rsquo;s SR 11-7: Guidance on Model Risk Management.
 Note: all proprietary details have been removed and the specific model attributes have been genericized.
 Model Overview # Model Purpose # The purpose of Super Fantastic Superior Sample Weather Model (herafter \u0026ldquo;Sample Weather\u0026rdquo; or \u0026ldquo;the model\u0026rdquo;) is to predict Fantastic Insurance Co.\u0026rsquo;s claim losses and loss frequencies following a catastrophic (\u0026ldquo;CAT\u0026rdquo;) wind-rain event, such as a hurricane.
