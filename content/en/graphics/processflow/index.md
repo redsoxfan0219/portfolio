@@ -17,10 +17,9 @@ In my past work, I have used process flow maps primarily to visualize how AI/ML 
 Below is a generic example of the kind of diagram I complete regularly in Visio. As you can see, this diagram visualizes how data comes into a model, how it is transformed, how it is processed, and what happens to outputs after they are produced.
 
 <iframe 
-    id="examplepdf" 
-    src="Sample-ML-Visio-Diagram.png" 
+    src="https://github.com/redsoxfan0219/portfolio/blob/main/public/graphics/processflow/Sample-ML-Visio-Diagram.pdf"
     width="900" 
     height="700"
-    style="position:relative;right:100px;"
+    style="position:relative;right:150px;"
     >
 </iframe>
