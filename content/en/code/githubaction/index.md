@@ -1,15 +1,15 @@
 ---
-title: "Githubaction"
+title: "GitHub Action"
 description: ""
 lead: ""
 date: 2022-10-16T12:32:11-04:00
 lastmod: 2022-10-16T12:32:11-04:00
-draft: true
+draft: false
 images: []
 menu:
   code:
     parent: ""
-weight: 999
+weight: 40
 toc: true
 ---
 
