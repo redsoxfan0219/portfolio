@@ -13,8 +13,6 @@ weight: 40
 toc: true
 ---
 
-# GitHub Actions in Docs-as-Code 
-
 ## Introduction to State Site Generators
 
 The purpose of static site generators is two-fold:
