@@ -1,7 +1,7 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Ben Moran's Portfolio"
+title = "Ben Barksdale's Portfolio"
 titleSeparator = "-"
 titleAddition = "Technical Writing, Documentation, Information Architecture"
 description = "This site contains the contents of my professional portfolio."
@@ -17,9 +17,9 @@ titleHome = "Doks Theme"
 
 ## JSON-LD
 schemaType = "Person"
-schemaName = "Ben Moran's Portfolio"
-schemaAuthor = "Ben Moran"
-schemaAuthorLinkedIn = "https://www.linkedin.com/in/ben-moran-ph-d-83a449175/"
+schemaName = "Ben Barksdale's Portfolio"
+schemaAuthor = "Ben Barksdale"
+schemaAuthorLinkedIn = "https://www.linkedin.com/in/ben-moran-barksdale-ph-d-83a449175/"
 schemaAuthorGitHub = "https://github.com/redsoxfan0219"
 schemaLocale = "en-US"
 schemaLogo = "logo-doks.png"
@@ -47,7 +47,7 @@ lqipWidth = "20x"
 smallLimit = "300"
 
 # Feed
-copyRight = "Copyright (c) 2022 Ben Moran"
+copyRight = "Copyright (c) 2022 Ben Barksdale"
 
 # Alert
 alert = false
