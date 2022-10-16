@@ -138,6 +138,6 @@ Here are the steps performed as a result of the `.yml` file above:
 
 9. Finally, the VM pushes the committed files back to my repository and deploys the HTML to the `gh-pages` branch.
 
-And voilà! We have our rendered and deployed HTML (which you are now viewing).
+And voilà! We have our rendered and deployed HTML. Click [here](https://redsoxfan0219.github.io/sphinx-github-action/) to see the GitHub Pages site that I built using this CI/CD pipeline.
 
 
