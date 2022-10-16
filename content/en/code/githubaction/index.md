@@ -13,7 +13,7 @@ weight: 999
 toc: true
 ---
 
- GitHub Actions in Docs-as-Code 
+# GitHub Actions in Docs-as-Code 
 
 ## Introduction to State Site Generators
 
