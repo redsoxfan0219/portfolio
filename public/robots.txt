@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://benmoran.netlify.app/sitemap.xml
+Sitemap: https://benbarksdale.netlify.app/sitemap.xml

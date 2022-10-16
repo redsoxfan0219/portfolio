@@ -1,19 +1,19 @@
 ---
-title: "GitHub Actions in Docs-as-Code Workflow"
+title: "Githubaction"
 description: ""
 lead: ""
-date: 2022-10-16T22:31:36-04:00
-lastmod: 2022-10-16T22:31:36-04:00
-draft: false
+date: 2022-10-16T12:32:11-04:00
+lastmod: 2022-10-16T12:32:11-04:00
+draft: true
 images: []
 menu:
-  docs:
+  code:
     parent: ""
-weight: 10
+weight: 999
 toc: true
 ---
 
-# GitHub Actions in Docs-as-Code 
+ GitHub Actions in Docs-as-Code 
 
 ## Introduction to State Site Generators
 
@@ -139,5 +139,3 @@ Here are the steps performed as a result of the `.yml` file above:
 9. Finally, the VM pushes the committed files back to my repository and deploys the HTML to the `gh-pages` branch.
 
 And voilà! We have our rendered and deployed HTML. Click [here](https://redsoxfan0219.github.io/sphinx-github-action/) to see the GitHub Pages site that I built using this CI/CD pipeline.
-
-
