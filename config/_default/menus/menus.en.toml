@@ -53,6 +53,13 @@
   parent = "Code"
 
 [[main]]
+  name = "GitHub Action"
+  weight = 40
+  identifier = "githubaction"
+  url = "/code/githubaction/"
+  parent = "Code"
+
+[[main]]
   name = "API Documentation"
   weight = 10
   identifier = "api-documentation"
