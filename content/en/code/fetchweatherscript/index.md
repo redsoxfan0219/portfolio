@@ -13,9 +13,11 @@ weight: 999
 toc: true
 ---
 
-I like knowing the weather as soon as I get up, and a simple Google search doesn't provide me all the weather details I want. So I wrote a Python script that gives me exactly what I want. Because I'll occasionally travel, I've set it up where I can enter the name of the city for which I want the weather details.
+I like knowing the weather as soon as I get up in the morning. However, I don't always like poking my head outside to find out, and a simple Google search doesn't provide me all the weather details I want to know directly in the search returns page. So I wrote a Python script that gives me exactly what I want. Because I'll occasionally travel, I've set it up so that, rather than simply defaulting to my primary location, I can enter the name of the city for which I want the weather details.
 
-For more information on the API this script uses to retrieve the weather details, please see [this page](https://openweathermap.org/api). Keys for this API can be accessed after setting up an account. For security reasons, I've removed my API key details in the script below.
+In most cases, the API I'm using defaults to using units that aren't intuitive to me (e.g., meters/second for wind speed). I've added a few basic functions to convert values to units I'm more familiar with.
+
+For more information on the API this script uses to retrieve current weather data, please see [this page](https://openweathermap.org/api). Keys for this API can be accessed after setting up an account. For security reasons, I've removed my API key from the script below.
 
 ```py
 import requests
