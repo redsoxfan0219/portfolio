@@ -15,7 +15,7 @@ toc: true
 
 I like knowing the weather as soon as I get up in the morning. However, I don't always like poking my head outside to find out, and a simple Google search doesn't provide me all the weather details I want to know directly in the search returns page. So I wrote a Python script that gives me exactly what I want. Because I'll occasionally travel, I've set it up so that, rather than simply defaulting to my primary location, I can enter the name of the city for which I want the weather details.
 
-In most cases, the API I'm using defaults to using units that aren't intuitive to me (e.g., meters/second for wind speed). I've added a few basic functions to convert values to units I'm more familiar with.
+In most cases, the API I'm using defaults to reporting in units that aren't intuitive to me (e.g., meters/second for wind speed). I've added a few basic functions to convert values to units I'm more familiar with. I also can never remember what the significance of the pressure readings are, so I've added a function that categorizes a pressure reading as either `High`, `Medium`, or `Low`. 
 
 For more information on the API this script uses to retrieve current weather data, please see [this page](https://openweathermap.org/api). Keys for this API can be accessed after setting up an account. For security reasons, I've removed my API key from the script below.
 
@@ -87,4 +87,16 @@ def get_weather():
 if __name__ == '__main__':
     get_weather()
 
+```
+
+Here's a sample output for my primary location, `Columbus` :
+
+```
+Weather: Clouds
+Description: overcast clouds
+Humidity: 46%
+Temperature: 44.7°F
+Feels like: 41.6°F
+Wind speed: 6.6 mph
+Pressure: 29.94 inchesHg: Medium Pressure
 ```
