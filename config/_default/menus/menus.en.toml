@@ -136,3 +136,9 @@
   weight = 40
   identifier = "GitHub Action"
   url = "code/githubaction/"
+
+[[code]]
+  name = "Fetch Weather Script"
+  weight = 50
+  identifier = "GitHub Action"
+  url = "code/fetchweatherscript/"
