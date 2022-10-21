@@ -60,6 +60,13 @@
   parent = "Code"
 
 [[main]]
+  name = "Fetch Weather Script"
+  weight = 50
+  identifier = "fetchweatherscript"
+  url = "/code/fetchweatherscript/"
+  parent = "Code"
+
+[[main]]
   name = "API Documentation"
   weight = 10
   identifier = "api-documentation"

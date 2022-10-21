@@ -17,7 +17,7 @@ I like knowing the weather as soon as I get up, and a simple Google search doesn
 
 For more information on the API this script uses to retrieve the weather details, please see [this page](https://openweathermap.org/api). Keys for this API can be accessed after setting up an account. For security reasons, I've removed my API key details in the script below.
 
-```python
+```py
 import requests
 
 def get_weather():
@@ -45,8 +45,8 @@ def get_weather():
         mph = metersPerSecond * metersPerSecond
         return mph
 
-    api_key = 'fb5366fefa8f3e8dea18ae57bc024b7e'
-
+    api_key = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+               
     base_url = 'https://api.openweathermap.org/data/2.5/weather'
 
     city = input('Enter city name: ')
