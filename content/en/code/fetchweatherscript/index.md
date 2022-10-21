@@ -44,7 +44,7 @@ def get_weather():
             return pressure 
     
     def metersPerSecond_to_MPH(metersPerSecond):
-        mph = metersPerSecond * metersPerSecond
+        mph = metersPerSecond * 2.237
         return mph
 
     api_key = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
