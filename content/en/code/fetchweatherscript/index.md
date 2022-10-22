@@ -36,7 +36,7 @@ def get_weather():
         if inHg > 30.20:
             pressure = "High Pressure"
             return pressure
-        elif 29.80 <= inHg < 30.20:
+        elif 29.80 <= inHg <= 30.20:
             pressure = "Medium Pressure"
             return pressure
         else:
