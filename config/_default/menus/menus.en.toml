@@ -68,28 +68,28 @@
 
 [[main]]
   name = "API Documentation"
-  weight = 10
+  weight = 20
   identifier = "api-documentation"
   url = "/docs/api-documentation/"
   parent = "Docs"
 
 [[main]]
   name = "Model Documentation"
-  weight = 20
+  weight = 30
   identifier = "model-documentation"
   url = "/docs/model-documentation/"
   parent = "Docs"
 
 [[main]]
   name = "Package Documentation"
-  weight = 30
+  weight = 40
   identifier = "package-documentation"
   url = "/docs/package-documentation/"
   parent = "Docs"
 
 [[main]]
   name = "AI/ML Process Documentation"
-  weight = 40
+  weight = 10
   identifier = "AI/ML Process Documentation"
   url = "/docs/ai-ml-process-documentation/"
   parent = "Docs"
@@ -111,25 +111,25 @@
 
 [[docs]]
   name = "API Documentation"
-  weight = 10
+  weight = 20
   identifier = "API Documentation"
   url = "/docs/api-documentation/"
 
 [[docs]]
   name = "Model Documentation"
-  weight = 20
+  weight = 30
   identifier = "Model Documentation"
   url = "/docs/model-documentation/"
 
 [[docs]]
   name = "Package Documentation"
-  weight = 30
+  weight = 40
   identifier = "Package Documentation"
   url = "/docs/package-documentation/"
 
 [[docs]]
   name = "AI/ML Process Documentation"
-  weight = 40
+  weight = 10
   identifier = "AI/ML Process Documentation"
   url = "/docs/ai-ml-process-documentation/"
 
