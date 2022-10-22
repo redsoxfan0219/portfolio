@@ -88,9 +88,9 @@
   parent = "Docs"
 
 [[main]]
-  name = "AI/ML Process Documentation"
+  name = "AI-ML Process Documentation"
   weight = 10
-  identifier = "AI/ML Process Documentation"
+  identifier = "AI-ML Process Documentation"
   url = "/docs/ai-ml-process-documentation/"
   parent = "Docs"
 
@@ -128,9 +128,9 @@
   url = "/docs/package-documentation/"
 
 [[docs]]
-  name = "AI/ML Process Documentation"
+  name = "AI-ML Process Documentation"
   weight = 10
-  identifier = "AI/ML Process Documentation"
+  identifier = "AI-ML Process Documentation"
   url = "/docs/ai-ml-process-documentation/"
 
 [[code]]
