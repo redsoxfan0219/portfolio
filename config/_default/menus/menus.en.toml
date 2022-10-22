@@ -88,6 +88,13 @@
   parent = "Docs"
 
 [[main]]
+  name = "AI/ML Process Documentation"
+  weight = 40
+  identifier = "AI/ML Process Documentation"
+  url = "/docs/ai-ml-process-documentation/"
+  parent = "Docs"
+
+[[main]]
   name = "Process Flow"
   weight = 20
   identifier = "processflow"
@@ -119,6 +126,12 @@
   weight = 30
   identifier = "Package Documentation"
   url = "/docs/package-documentation/"
+
+[[docs]]
+  name = "AI/ML Process Documentation"
+  weight = 40
+  identifier = "AI/ML Process Documentation"
+  url = "/docs/ai-ml-process-documentation/"
 
 [[code]]
   name = "Data Dictionary Creator"
