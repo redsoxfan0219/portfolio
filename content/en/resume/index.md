@@ -45,30 +45,65 @@ BA, English — Western Michigan University (2013)
 
 ## Skills & Technology
 
+### Advanced Proficiency
+
+*Writing*
+
 - Technical Writing
 - Developer Documentation
 - Model Documentation
-- API Documentation
-- Package Documentation (Python, R)
-- Docs as Code
 - Editing
 - Copyediting
 - Proofreading
-- Qualitative Research
+
+*Technology*
+
+- GitHub
+- SharePoint
+- MS Office
+- Markdown
+
+*Other*
+
+- Developing content for technical audiences
+- Process Management
 - Model Risk Management
 - Project Management
-- Corporate Training
-- Developing content for technical audiences
 - Learning Development
+
+### Intermediate Proficiency
+
+*Writing*
+
+- API Documentation
+- Package / SDK Documentation
+- Docs as Code
+
+*Technology*
+
+- Python
+- reStructuredText
+- R
+- HTML/CSS
+- Bash/PowerShell/Command Line
+- Git
+- Illustrator
+
+*Other*
+
+- Corporate Training
 - Instructional Design
 - Model Development Lifecycle
-- Python
-- R
+
+### Basic Proficiency
+
+*Technology*
+
 - SQL
-- SharePoint
-- Git/GitHub
-- MS Office
-- HTML/CSS
-- Terminal/PowerShell
+- Go
+- Julia
+- GIMP
 
+*Other*
 
+- Qualitative Research
