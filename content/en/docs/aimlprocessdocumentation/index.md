@@ -30,14 +30,14 @@ In this first image, you can see the site landing page. I was unsatisfied with t
 - Link to the GitHub repository's Issues page
 - A functional search bar
 
-![Code Documentation site landing page](MFCD-landing-page.png)
+![Code Documentation site landing page](MFCD-landing-page-1.png)
 
 In this next image, you'll see one of the second-level landing pages. A couple of things worth noting here:
 
 - On the left, a collapsible side navigation bar. This navigation bar remains fixed in place as a user scrolls down the page. I adjusted the theme's Javascript to enable this functionality.
 - A next page button. Because our development team explained these steps happening in a sequence, I thought it logical to connect one page to the next in a natural way.
 
-![Getting Started Landing Page](MFCD-getting-started-overview.png)
+![Getting Started Landing Page](MFCD-getting-started-overview-1.png)
 
 Next, you can see a typical content page from the site. A few  features evident here include:
 
@@ -45,5 +45,5 @@ Next, you can see a typical content page from the site. A few  features evident 
 - An "admonition" call-out box. A "Warning" is used here, but "Tip," "Note", and "Caution" call-outs can be found throughout the site, too.
 - Images to match the text description. Because these instructions direct users to navigate to a feature of GitHub most of them were not familiar with, I thought including images would help them feel confident about the tasks they are being asked to perform.
 
-![GitHub Webhooks Landing Page](MFCD-github-webhooks.png)
+![GitHub Webhooks Landing Page](MFCD-github-webhooks-1.png)
 
