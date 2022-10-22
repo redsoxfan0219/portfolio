@@ -8,7 +8,18 @@ from adamic import adamic To create your data dictionary, pass a Pandas datafram
 adamic.create_data_dictionary(sample_df) The package will prompt you to supply definitions for each variable in the dataset. Hit Enter after supplying definition or if you want to define the variable later after the output file has been created.
 Finally, you will be prompted to name your preferred file extension. .csv, .json, and .xlsx are the available options.
 Source Code # The source code for adamic can be found at this GitHub repository.
-`}),e.add({id:1,href:"/docs/model-documentation/",title:"Model Documentation",description:"A sample of AI/ML Model Documentation",content:`Below is an example of AI-ML documentation that I\u0026rsquo;ve created in the past. The content of this text is designed meet expectations set in the Federal Reserve\u0026rsquo;s SR 11-7: Guidance on Model Risk Management.
+`}),e.add({id:1,href:"/docs/model-documentation/",title:"Model Documentation",description:"A sample of AI/ML Model Documentation",content:`Model Overview # Model Purpose # The purpose of Super Fantastic Superior Sample Weather Model (hereafter \u0026ldquo;Sample Weather\u0026rdquo; or \u0026ldquo;the model\u0026rdquo;) is to predict Fantastic Insurance Co.\u0026rsquo;s claim losses and loss frequencies following a catastrophic (\u0026ldquo;CAT\u0026rdquo;) wind-rain event, such as a hurricane.
+Currently, when a severe weather event occurs, Fantastic Insurance actuaries produce loss and frequency estimates by reviewing past wind-rain events and applying a multiplication factor to the cost and frequencies of the previous event. This approach has proven ineffective at gauging losses and frequencies, especially when the present event differs dramatically in size and location from past wind-rain events.
+The goal of the Sample Weather model is to use advanced analytics techniques to
+predict losses and frequencies more accurately produce predictions more quickly than current practice allows, and continue producing predictions for the 30 days following a wind-rain event. Model Characteristics # Attribute Value Model Name Sample Weather Model Model ID No. 867-5309 Model Owner Tommy Tutone Model Client Jenny Jenny Production Date November 16, 1981 Deployment SageMaker Image ID 325389189899.dkr.ecr.us-east-2.amazonaws.com/sampleenvironment-sampleweathermodel-dev-deploy:latest Repository Details # Production Repository
+https://github.com/redsoxfan0219/master/sampleweathermodel
+Development Repository
+https://github.com/redsoxfan0219/develop/sampleweathermodel
+ETL Code
+https://github.com/redsoxfan0219/ETL/sampleweathermodel
+Final Training Data
+s3://sample-environment/sampleweathermodel/eda/train/
+Below is an example of AI-ML documentation that I\u0026rsquo;ve created in the past. The content of this text is designed meet expectations set in the Federal Reserve\u0026rsquo;s SR 11-7: Guidance on Model Risk Management.
 Note: all proprietary details have been removed and the specific model attributes have been genericized.
 Model Outputs # The model produces state-level loss and frequency estimates for the lower 48 states + the District of Columbia. The production code sends 98 model outputs to Teradata and the business partner\u0026rsquo;s S3 bucket. The output format is .csv.
 Implementation Details # The model pipeline is triggered to run when a member of the catastrophe claims team registers a new catastrophic event ID within their Super Great Claims system. New IDs are typically established while storms are still forming off the Atlantic coast (i.e., before any related claims are filed).
