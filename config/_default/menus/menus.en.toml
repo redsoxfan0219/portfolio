@@ -98,7 +98,7 @@
   name = "Overview"
   weight = 10
   identifier = "overview"
-  url = "/docs/_overview/overview"
+  url = "/docs/_overview/introduction"
 
 [[docs]]
   name = "Sample Work Products"
