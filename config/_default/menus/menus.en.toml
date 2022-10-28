@@ -95,10 +95,10 @@
   parent = "Graphics"
 
 [[docs]]
-  name = "Sample Work Products"
+  name = "Overview"
   weight = 10
-  identifier = "sample-work-products"
-  url = "/docs/sample-work-products/"
+  identifier = "overview"
+  url = "/docs/_overview/overview"
 
 [[docs]]
   name = "Sample Work Products"
