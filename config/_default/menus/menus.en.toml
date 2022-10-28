@@ -67,38 +67,17 @@
   parent = "Code"
 
 [[main]]
-  name = "AI-ML Process Documentation"
+  name = "Sample Work Products"
   weight = 10
-  identifier = "AI-ML Process Documentation"
-  url = "/docs/ai-ml-process-documentation/"
-  parent = "Docs"
-
-[[main]]
-  name = "API Documentation"
-  weight = 20
-  identifier = "api-documentation"
-  url = "/docs/api-documentation/"
+  identifier = "sample-work-products"
+  url = "/docs/sampleworkproducts/"
   parent = "Docs"
 
 [[main]]
   name = "Articles and Guides"
-  weight = 30
-  identifier = "Articles and Guides"
+  weight = 20
+  identifier = "articles-and-guides"
   url = "/docs/guides/"
-  parent = "Docs"
-
-[[main]]
-  name = "Model Documentation"
-  weight = 40
-  identifier = "model-documentation"
-  url = "/docs/model-documentation/"
-  parent = "Docs"
-
-[[main]]
-  name = "Package Documentation"
-  weight = 50
-  identifier = "package-documentation"
-  url = "/docs/package-documentation/"
   parent = "Docs"
 
 [[main]]
