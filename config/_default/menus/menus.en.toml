@@ -97,7 +97,7 @@
 [[docs]]
   name = "Overview"
   weight = 10
-  identifier = "overview"
+  identifier = "overview/"
   url = "/docs/overview"
 
 [[docs]]

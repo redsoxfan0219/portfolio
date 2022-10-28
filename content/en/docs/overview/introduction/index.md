@@ -9,7 +9,7 @@ images: []
 type: docs
 menu:
   docs:
-    parent: "Docs"
+    parent: "overview"
 weight: 10
 toc: false
 ---
