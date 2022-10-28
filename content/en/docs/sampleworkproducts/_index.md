@@ -10,4 +10,5 @@ type: docs
 menu:
   docs:
     parent: "Docs"
+weight: 20
 ---
