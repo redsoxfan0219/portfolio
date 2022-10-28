@@ -8,7 +8,7 @@ draft: false
 images: []
 menu:
   code:
-    parent: "code"
+    parent: "Code"
 weight: 40
 toc: true
 ---

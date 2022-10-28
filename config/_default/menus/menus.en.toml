@@ -123,33 +123,39 @@
   parent = "Graphics"
 
 [[docs]]
+  name = "Overview"
+  weight = 1
+  identifier = "docs-overview"
+  url = "/docs/"
+
+[[docs]]
   name = "AI-ML Process Documentation"
   weight = 10
-  identifier = "AI-ML Process Documentation"
+  identifier = "ai-ml-process-documentation"
   url = "/docs/ai-ml-process-documentation/"
 
 [[docs]]
   name = "API Documentation"
   weight = 20
-  identifier = "API Documentation"
+  identifier = "api-documentation"
   url = "/docs/api-documentation/"
 
 [[docs]]
   name = "Model Documentation"
   weight = 30
-  identifier = "Model Documentation"
+  identifier = "model-documentation"
   url = "/docs/model-documentation/"
 
 [[docs]]
   name = "Package Documentation"
   weight = 40
-  identifier = "Package Documentation"
+  identifier = "package-documentation"
   url = "/docs/package-documentation/"
 
 [[docs]]
   name = "Articles and Guides"
   weight = 50
-  identifier = "Articles and Guides"
+  identifier = "articles-and-guides"
   url = "/docs/guides/"
 
 [[code]]

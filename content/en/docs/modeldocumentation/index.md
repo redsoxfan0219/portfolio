@@ -8,8 +8,8 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "Model Documentation"
-weight: 10
+    parent: "docs-overview"
+weight: 40
 toc: true
 ---
 
