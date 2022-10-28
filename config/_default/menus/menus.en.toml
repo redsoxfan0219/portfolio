@@ -97,7 +97,7 @@
 [[main]]
   name = "Articles and Guides"
   weight = 50
-  identifier = "AI-ML Process Documentation"
+  identifier = "Articles and Guides"
   url = "/docs/guides/"
   parent = "Docs"
 
