@@ -123,67 +123,13 @@
   parent = "Graphics"
 
 [[docs]]
-  name = "Overview"
+  name = "Docs"
   weight = 1
   identifier = "docs-overview"
   url = "/docs/"
 
-[[docs]]
-  name = "AI-ML Process Documentation"
-  weight = 10
-  identifier = "ai-ml-process-documentation"
-  url = "/docs/ai-ml-process-documentation/"
-
-[[docs]]
-  name = "API Documentation"
-  weight = 20
-  identifier = "api-documentation"
-  url = "/docs/api-documentation/"
-
-[[docs]]
-  name = "Model Documentation"
-  weight = 30
-  identifier = "model-documentation"
-  url = "/docs/model-documentation/"
-
-[[docs]]
-  name = "Package Documentation"
-  weight = 40
-  identifier = "package-documentation"
-  url = "/docs/package-documentation/"
-
-[[docs]]
-  name = "Articles and Guides"
-  weight = 50
-  identifier = "articles-and-guides"
-  url = "/docs/guides/"
-
 [[code]]
-  name = "Data Dictionary Creator"
-  weight = 10
-  identifier = "Data Dictionary Creator"
-  url = "code/datadictionarycreator/"
-
-[[code]]
-  name = "Exploratory Data Analysis"
-  weight = 20
-  identifier = "Exploratory Data Analysis"
-  url = "code/exploratorydataanalysis/"
-
-[[code]]
-  name = "RenText"
-  weight = 30
-  identifier = "RenText"
-  url = "code/rentext/"
-
-[[code]]
-  name = "GitHub Action"
-  weight = 40
-  identifier = "GitHub Action"
-  url = "code/githubaction/"
-
-[[code]]
-  name = "Fetch Weather Script"
-  weight = 50
-  identifier = "GitHub Action"
-  url = "code/fetchweatherscript/"
+  name = "Code"
+  weight = 1
+  identifier = "code-overview"
+  url = "/code/"
