@@ -101,7 +101,13 @@
   url = "/docs/sample-work-products/"
 
 [[docs]]
-  name = "Articles and Guides"
+  name = "Sample Work Products"
   weight = 20
+  identifier = "sample-work-products"
+  url = "/docs/sample-work-products/"
+
+[[docs]]
+  name = "Articles and Guides"
+  weight = 30
   identifier = "articles-and-guides"
   url = "/docs/articles-and-guides/"

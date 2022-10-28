@@ -88,4 +88,4 @@ footer = "Site built using the <a href=\"https://www.writethedocs.org/guide/docs
 [menu]
   [menu.section]
     auto = true
-    collapsibleSidebar = true
+    collapsibleSidebar = false
