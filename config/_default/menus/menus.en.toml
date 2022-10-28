@@ -43,82 +43,81 @@
   weight = 10
   identifier = "data-dictionary-creator"
   url = "/code/datadictionarycreator"
-  parent = "code"
+  parent = "Code"
 
 [[main]]
   name = "Exploratory Data Analysis"
   weight = 20
   identifier = "exploratorydatanalysis"
   url = "/code/exploratorydataanalysis/"
-  parent = "code"
+  parent = "Code"
 
 [[main]]
   name = "Fetch Weather Script"
   weight = 30
   identifier = "fetchweatherscript"
   url = "/code/fetchweatherscript/"
-  parent = "code"
+  parent = "Code"
 
 [[main]]
   name = "GitHub Action"
   weight = 40
   identifier = "githubaction"
   url = "/code/githubaction/"
-  parent = "code"
+  parent = "Code"
 
 [[main]]
   name = "RenText"
   weight = 50
   identifier = "RenText"
   url = "code/rentext/"
-  parent = "code"
-
+  parent = "Code"
 
 [[main]]
   name = "AI-ML Process Documentation"
   weight = 10
   identifier = "AI-ML Process Documentation"
   url = "/docs/ai-ml-process-documentation/"
-  parent = "docs"
+  parent = "Docs"
 
 [[main]]
   name = "API Documentation"
   weight = 20
   identifier = "api-documentation"
   url = "/docs/api-documentation/"
-  parent = "docs"
-
-[[main]]
-  name = "Model Documentation"
-  weight = 30
-  identifier = "model-documentation"
-  url = "/docs/model-documentation/"
-  parent = "docs"
-
-[[main]]
-  name = "Package Documentation"
-  weight = 40
-  identifier = "package-documentation"
-  url = "/docs/package-documentation/"
-  parent = "docs"
+  parent = "Docs"
 
 [[main]]
   name = "Articles and Guides"
-  weight = 50
+  weight = 30
   identifier = "Articles and Guides"
   url = "/docs/guides/"
-  parent = "docs"
+  parent = "Docs"
+
+[[main]]
+  name = "Model Documentation"
+  weight = 40
+  identifier = "model-documentation"
+  url = "/docs/model-documentation/"
+  parent = "Docs"
+
+[[main]]
+  name = "Package Documentation"
+  weight = 50
+  identifier = "package-documentation"
+  url = "/docs/package-documentation/"
+  parent = "Docs"
 
 [[main]]
   name = "Process Flow"
-  weight = 20
+  weight = 10
   identifier = "processflow"
   url = "graphics/processflow/"
   parent = "graphics"
 
 [[main]]
   name = "LinkedIn Post"
-  weight = 30
+  weight = 20
   identifier = "linkedinpost"
   url = "/graphics/linkedinpost/"
   parent = "graphics"
@@ -151,7 +150,7 @@
   name = "Articles and Guides"
   weight = 50
   identifier = "Articles and Guides"
-  url = "/docs/guides/"
+  url = "/docs/guides"
 
 [[code]]
   name = "Data Dictionary Creator"
