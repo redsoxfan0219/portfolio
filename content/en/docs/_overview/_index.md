@@ -9,5 +9,5 @@ images: []
 type: docs
 menu:
   docs:
-    parent: "Docs"
+    parent: "docs"
 ---
