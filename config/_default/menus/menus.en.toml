@@ -143,8 +143,8 @@
 [[docs]]
   name = "Articles and Guides"
   weight = 50
-  identifier = "Package Documentation"
-  url = "/docs/package-documentation/"
+  identifier = "Articles and Guides"
+  url = "/docs/guides/"
 
 [[guides]]
   name = "Git for Technical Writers"
