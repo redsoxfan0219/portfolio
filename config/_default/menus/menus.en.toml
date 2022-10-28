@@ -142,7 +142,7 @@
 
 [[docs]]
   name = "Articles and Guides"
-  weight = 40
+  weight = 50
   identifier = "Package Documentation"
   url = "/docs/package-documentation/"
 

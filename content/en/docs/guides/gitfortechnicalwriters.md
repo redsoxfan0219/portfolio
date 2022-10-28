@@ -4,11 +4,11 @@ description: ""
 lead: ""
 date: 2022-10-28T09:08:22-04:00
 lastmod: 2022-10-28T09:08:22-04:00
-draft: true
+draft: false
 images: []
 menu:
   graphics:
-    parent: ""
+    parent: "guides"
 weight: 999
 toc: true
 ---
@@ -145,6 +145,8 @@ When you open your command line, you'll see a screen that looks like this:
 ![Command Line Start Screen](command-line-1.png)
 
 Your command line may look a little different, especially if you are using Windows' `PowerShell`. But functionally this should be the same.
+
+
 
 #### Setting Up a Repository
 
