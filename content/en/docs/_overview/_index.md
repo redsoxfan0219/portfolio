@@ -10,6 +10,4 @@ type: docs
 menu:
   docs:
     parent: "Docs"
-weight: 1
-toc: true
 ---
