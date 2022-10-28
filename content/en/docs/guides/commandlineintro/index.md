@@ -8,8 +8,8 @@ draft: false
 images: []
 menu:
   graphics:
-    parent: "guides"
-weight: 999
+    parent: "Articles and Guides"
+weight: 10
 toc: true
 ---
 

@@ -113,14 +113,14 @@
   weight = 10
   identifier = "processflow"
   url = "graphics/processflow/"
-  parent = "graphics"
+  parent = "Graphics"
 
 [[main]]
   name = "LinkedIn Post"
   weight = 20
   identifier = "linkedinpost"
   url = "/graphics/linkedinpost/"
-  parent = "graphics"
+  parent = "Graphics"
 
 [[docs]]
   name = "AI-ML Process Documentation"
@@ -150,7 +150,7 @@
   name = "Articles and Guides"
   weight = 50
   identifier = "Articles and Guides"
-  url = "/docs/guides"
+  url = "/docs/guides/"
 
 [[code]]
   name = "Data Dictionary Creator"
