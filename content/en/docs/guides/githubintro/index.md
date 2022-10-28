@@ -1,5 +1,5 @@
 ---
-title: "Introduction to the Command Line for Technical Writers"
+title: "Introduction to GitHub for Technical Writers"
 description: ""
 lead: ""
 date: 2022-10-28T09:08:22-04:00
@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "articles-and-guides"
-weight: 10
+weight: 40
 toc: true
 ---
 

@@ -7,7 +7,7 @@ lastmod: 2022-10-28T09:08:22-04:00
 draft: false
 images: []
 menu:
-  graphics:
+  docs:
     parent: "articles-and-guides"
 weight: 20
 toc: true

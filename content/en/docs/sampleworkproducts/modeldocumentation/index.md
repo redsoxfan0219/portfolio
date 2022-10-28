@@ -8,7 +8,7 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "Docs"
+    parent: "sample-work-products"
 weight: 40
 toc: true
 ---

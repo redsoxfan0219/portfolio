@@ -60,15 +60,8 @@
   parent = "Code"
 
 [[main]]
-  name = "GitHub Action"
-  weight = 40
-  identifier = "githubaction"
-  url = "/code/githubaction/"
-  parent = "Code"
-
-[[main]]
   name = "RenText"
-  weight = 50
+  weight = 40
   identifier = "RenText"
   url = "code/rentext/"
   parent = "Code"
@@ -121,3 +114,15 @@
   identifier = "linkedinpost"
   url = "/graphics/linkedinpost/"
   parent = "Graphics"
+
+[[docs]]
+  name = "Sample Work Products"
+  weight = 10
+  identifier = "sample-work-products"
+  url = "/docs/sample-work-products/"
+
+[[docs]]
+  name = "Articles and Guides"
+  weight = 20
+  identifier = "articles-and-guides"
+  url = "/docs/articles-and-guides/"
