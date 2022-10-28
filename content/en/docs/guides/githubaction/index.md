@@ -1,5 +1,5 @@
 ---
-title: "GitHub Action"
+title: "GitHub Actions"
 description: ""
 lead: ""
 date: 2022-10-16T12:32:11-04:00
