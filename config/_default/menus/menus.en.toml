@@ -39,17 +39,17 @@
   parent = "Code"
 
 [[main]]
-  name = "RenText"
-  weight = 30
-  identifier = "RenText"
-  url = "code/rentext/"
-  parent = "Code"
-
-[[main]]
   name = "Exploratory Data Analysis"
   weight = 20
   identifier = "exploratorydatanalysis"
   url = "/code/exploratorydataanalysis/"
+  parent = "Code"
+
+[[main]]
+  name = "RenText"
+  weight = 30
+  identifier = "RenText"
+  url = "code/rentext/"
   parent = "Code"
 
 [[main]]
@@ -108,6 +108,11 @@
   url = "/graphics/linkedinpost/"
   parent = "Graphics"
 
+[[docs]]
+  name = "AI-ML Process Documentation"
+  weight = 10
+  identifier = "AI-ML Process Documentation"
+  url = "/docs/ai-ml-process-documentation/"
 
 [[docs]]
   name = "API Documentation"
@@ -128,10 +133,16 @@
   url = "/docs/package-documentation/"
 
 [[docs]]
-  name = "AI-ML Process Documentation"
+  name = "Articles and Guides"
+  weight = 40
+  identifier = "Package Documentation"
+  url = "/docs/package-documentation/"
+
+[[guides]]
+  name = "Git for Technical Writers"
   weight = 10
-  identifier = "AI-ML Process Documentation"
-  url = "/docs/ai-ml-process-documentation/"
+  identifier = "Git for Technical Writers"
+  url = "/docs/guides/gitfortechnicalwriters/"
 
 [[code]]
   name = "Data Dictionary Creator"

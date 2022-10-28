@@ -21,7 +21,7 @@ The data used in this project is from the [Text Creation Partnership](https://te
 
 The primary data currently consists of approximately 60,000 XML files, which can be accessed on the TCP's [Dropbox](https://www.dropbox.com/sh/pfx619wnjdck2lj/AAAeQjd_dv29oPymNoKJWfEYa?dl=0).
 
-As described on [this page](https://textcreationpartnership.org/tcp-texts/eebo-tcp-early-english-books-online/), all of the 60K+ texts were hand-coded over the course of about 20 years. The exact nature of the [EEBO source texts](https://proquest.libguides.com/eebopqp)—digitized (often quite old and occasionally poor-quality)microfilm of original hard copies—makes [optical character recognition](https://en.wikipedia.org/wiki/Optical_character_recognition) infeasible.
+As described on [this page](https://textcreationpartnership.org/tcp-texts/eebo-tcp-early-english-books-online/), all of the 60K+ texts were hand-coded over the course of about 20 years. The exact nature of the [EEBO source texts](https://proquest.libguides.com/eebopqp)—digitized (often quite old and occasionally poor-quality) microfilm of original hard copies—made and continues to make [optical character recognition](https://en.wikipedia.org/wiki/Optical_character_recognition) infeasible.
 
 ### Data Updates
 
