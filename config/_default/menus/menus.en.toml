@@ -151,6 +151,14 @@
   weight = 10
   identifier = "Git for Technical Writers"
   url = "/docs/guides/gitfortechnicalwriters/"
+  parent = "Guides"
+
+[[guides]]
+  name = "Introduction to the Command Line for Technical Writers"
+  weight = 20
+  identifier = "Introduction to the Command Line for Technical Writers"
+  url = "/docs/guides/commandlineintro/"
+  parent = "Guides"
 
 [[code]]
   name = "Data Dictionary Creator"
