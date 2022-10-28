@@ -8,7 +8,7 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "articles-and-guides"
+    parent: "Articles and Guides"
 weight: 10
 toc: true
 ---
