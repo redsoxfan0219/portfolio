@@ -10,5 +10,5 @@ menu:
   code:
     parent: ""
 weight: 10
-toc: true
+toc: false
 ---

@@ -121,15 +121,3 @@
   identifier = "linkedinpost"
   url = "/graphics/linkedinpost/"
   parent = "Graphics"
-
-[[docs]]
-  name = "Docs"
-  weight = 1
-  identifier = "docs-overview"
-  url = "/docs/"
-
-[[code]]
-  name = "Code"
-  weight = 1
-  identifier = "code-overview"
-  url = "/code/"
