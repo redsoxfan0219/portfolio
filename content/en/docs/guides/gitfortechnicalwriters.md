@@ -134,7 +134,17 @@ Further underscoring murky distinctions between Git and GitHub, we'll start our 
 
 ### A Few Key Non-Git Commands
 
-In just a moment, you'll be using the command line to set up your local Git repository. But before you do that, you need to know a few things about the command line 
+In just a moment, you'll be using the command line to set up your local Git repository. But before you do that, you need to know a few non-Git
+
+#### `cd`, Change Working Directory
+
+When you open your command line application, the command line will default to working in some high-level directory (i.e., folder). It's probably not the one you want to be working in, so you'll need to change your directory. You'll need to do this each time you open a new command line window.
+
+When you open your command line, you'll see a screen that looks like this:
+
+![Command Line Start Screen](command-line-1.png)
+
+Your command line may look a little different, especially if you are using Windows' `PowerShell`. But functionally this should be the same.
 
 #### Setting Up a Repository
 

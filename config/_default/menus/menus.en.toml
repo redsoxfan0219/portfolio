@@ -67,6 +67,13 @@
   parent = "Code"
 
 [[main]]
+  name = "AI-ML Process Documentation"
+  weight = 10
+  identifier = "AI-ML Process Documentation"
+  url = "/docs/ai-ml-process-documentation/"
+  parent = "Docs"
+
+[[main]]
   name = "API Documentation"
   weight = 20
   identifier = "api-documentation"
@@ -88,11 +95,12 @@
   parent = "Docs"
 
 [[main]]
-  name = "AI-ML Process Documentation"
-  weight = 10
+  name = "Articles and Guides"
+  weight = 50
   identifier = "AI-ML Process Documentation"
-  url = "/docs/ai-ml-process-documentation/"
+  url = "/docs/guides/"
   parent = "Docs"
+
 
 [[main]]
   name = "Process Flow"
