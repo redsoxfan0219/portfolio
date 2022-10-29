@@ -132,20 +132,45 @@ Further underscoring murky distinctions between Git and GitHub, we'll start our 
 2. Click 'Sign up' in the upper-right.
 3. Follow the prompts to set up your account.
 
-### A Few Key Non-Git Commands
+### Two Key Non-Git Commands
 
-In just a moment, you'll be using the command line to set up your local Git repository. But before you do that, you need to know a few non-Git
+In just a moment, you'll be using the command line to set up your local Git repository. But before you do that, you need to know a few non-Git commands. 
+
+I'll keep things limited to the very basics here. If you're interested in learning more about the command line, check out my [Introduction to the Command Line for Technical Writers](../commandlineintro).
 
 #### `cd`, Change Working Directory
 
 When you open your command line application, the command line will default to working in some high-level directory (i.e., folder). It's probably not the one you want to be working in, so you'll need to change your directory. You'll need to do this each time you open a new command line window.
 
-When you open your command line, you'll see a screen that looks like this:
+When you open your command line, you'll see a screen that looks like the following image. Your command line may look a little different, especially if you are using Windows' `PowerShell`. But functionally this should be the same.
 
-![Command Line Start Screen](command-line-1.png)
+![Command Line Start Screen](command-line-home-directory.png)
 
-Your command line may look a little different, especially if you are using Windows' `PowerShell`. But functionally this should be the same.
+The `~ benjaminmoran$` indicates the working directory. You can think of this as communicating the computer's present perspective: it currently sees the `/Users/benjaminmoran` folder and its contents and can perform actions on them.
 
+However, most of the content you interact with is *not* stored in the default working directory that appears when you open a new terminal window (this is know as the "home directory"). If you want to perform actions on another directory's contents, you can either tell the machine where those other contents are or you can move the working directory to that location and perform actions on them there. It's generally easier to do the latter.
+
+To move your working directory, you will enter: `cd <new directory>`, replacing `<new directory>` with the location that you want to work in. For example, I store my Git repositories in within my `Documents` folder. This image shows how I get there from my home directory:
+
+![Changing Directories with the Command Line](command-line-working-directory.png)
+
+I am now in my `GitHub` subfolder within `Documents`. Note that I didn't need to run multiple `cd` commands. I knew my `GitHub` folder was in my `Documents` directory, so I was able to jump two directories down with one command.
+
+#### Tab Completion
+
+There's a handy trick to make changing your directory even quicker: [tab completion](https://www.howtogeek.com/195207/use-tab-completion-to-type-commands-faster-on-any-operating-system/). When writing out a directory, for example, I can enter `TAB` after a couple of characters, and the terminal will fill in the directory. Here, I just typed `Doc` before hitting `TAB`, saving me a little bit of time. When you add up those little bits of time saved, though, you start to realize how much more efficient this is than navigating with your mouse. 
+
+Note that, with tab completion, your computer looks for unique values based on your initial input. If it encounters two file or directory names with the same root, the terminal will stop at the point that the two file names differ. It then expects you to clarify which file or directory you intend to use. For example, imagine I have two subdirectories in my present working directory, one called `Document` and one called `Documents`. If I type `cd Doc` and hit `TAB`, the terminal will fill in `ument`, stopping at `cd Document`, because this is where the two file names differ. The terminal expects me to either hit `Enter` to change directory into `Document` or enter an `s` before entering into the `Documents` directory.
+
+#### `ls`, List Contents of the Working Directory
+
+You've changed into your new directory. How do you know what's there without looking at your File Explorer or Finder?
+
+`ls` is here to help. `ls` lists the contents of your present working directory:
+
+![ls command](command-line-ls.png)
+
+The only thing I want to point out here is that subdirectories and files are both printed here. Subdirectories do not have a file extension; files do. 
 
 
 #### Setting Up a Repository
