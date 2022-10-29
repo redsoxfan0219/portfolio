@@ -13,11 +13,17 @@ weight: 20
 toc: true
 ---
 
-When my Fortune 100 data science overhauled its software stack, shifting to cloud-based ML tools, leadership struggled with the mountain of information it needed to communicate to associates. [Images](https://www.techtarget.com/searchitoperations/definition/Docker-image), [containers](https://www.docker.com/resources/what-container/), and [Docker](https://en.wikipedia.org/wiki/Docker_(software)); [S3](https://aws.amazon.com/s3/), [SageMaker](https://aws.amazon.com/sagemaker/), and [Kubeflow](https://www.kubeflow.org/); [Informatica](https://www.informatica.com/products/cloud-integration.html), [Spark](https://spark.apache.org/), and [Databricks](https://www.databricks.com/)—where to begin? how should it be organized? how could process changes be tracked?
+## Problem
+
+When my Fortune 100 data science department overhauled its software stack, shifting to cloud-based ML tools, leadership struggled with the mountain of information it needed to communicate to associates. [Images](https://www.techtarget.com/searchitoperations/definition/Docker-image), [containers](https://www.docker.com/resources/what-container/), and [Docker](https://en.wikipedia.org/wiki/Docker_(software)); [S3](https://aws.amazon.com/s3/), [SageMaker](https://aws.amazon.com/sagemaker/), and [Kubeflow](https://www.kubeflow.org/); [Informatica](https://www.informatica.com/products/cloud-integration.html), [Spark](https://spark.apache.org/), and [Databricks](https://www.databricks.com/)—where to begin? how should it be organized? how could process changes be tracked?
+
+## Proposals
 
 At first, leadership favored the simplest option: simply directing associates to publicly available documentation. The option had its appeal. After all, most of the companies producing the parts of our stack already had passable, and in some cases quite good, documentation. But early interviews with our new users revealed the limitations of this approach. Associates were overwhelmed by the options outlined in publicly available documentation; they didn't know what features we could use in our enterprise-tailored version of the tools. And, of course, none of the public options documented things like internal access requests and the configuration of our custom Git repository template. Given the significant technical changes we were asking associates to undertake, employing a hodgepodge of documentation felt like it would be adding one more hurdle before our team.
 
 I proposed an alternative: building a custom documentation site from the ground up using [Markdown](https://www.markdownguide.org/), [Jekyll](https://jekyllrb.com/), and [GitHub Pages](https://pages.github.com/). This approach, essentially a [docs as code](https://www.writethedocs.org/guide/docs-as-code/) workflow, had the added benefit of version controlling changes to the documentation with [Git](https://git-scm.com/), which wasn't available with the other option we had been using ([SharePoint](https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration)). My proposal was accepted, and, despite having little experience with my doc tool stack, I quickly got to work.
+
+## Solution: a Jeykll-Based Static Site
 
 The finished product was a comprehensive, user-friendly, 80+ page documentation site. At the time of this writing, it remains one of the most regularly consulted technical documentation resources not only within my department but across the enterprise.
 
