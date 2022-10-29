@@ -13,7 +13,7 @@ weight: 40
 toc: true
 ---
 
-Below is an example of AI-ML documentation that I've created in the past. The content of this text is designed meet expectations set in the [Federal Reserve's SR 11-7: Guidance on Model Risk Management](https://www.federalreserve.gov/supervisionreg/srletters/sr1107.htm).
+Below is an example of AI-ML documentation that I've created in the past. The content of this text is designed to meet expectations established in the [Federal Reserve's SR 11-7: Guidance on Model Risk Management](https://www.federalreserve.gov/supervisionreg/srletters/sr1107.htm).
 
 **Note: all proprietary details have been removed and the specific model attributes outlined below have been invented.**
 
