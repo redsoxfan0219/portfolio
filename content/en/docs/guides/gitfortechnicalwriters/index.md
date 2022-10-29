@@ -170,12 +170,16 @@ You've changed into your new directory. How do you know what's there without loo
 
 ![ls command](command-line-ls.png)
 
-The only thing I want to point out here is that subdirectories and files are both printed here. Subdirectories do not have a file extension; files do. 
+The only thing I want to point out here is that subdirectories and files are both printed when `ls` is entered. Subdirectories do not have a file extension; files do. 
 
 
-#### Setting Up a Repository
+#### Setting Up a Git Repository
 
-There are two ways to set up a new repository: 
+You can turn any ordinary folder into a Git repository, because Git repositories are just folders with a hidden `.git` file within them.
+
+##### Cloning from Remote
+
+There are two ways to set up a new Git repository: 
 
 - Initiating a repository on GitHub and cloning it your local computer
 - Initiating one on your local computer
@@ -188,15 +192,197 @@ I typically do the former, so I'll give those instructions first.
 4. Keep the accessibility option set to "Public."
 5. Click the green "Create repository" button.
 6. On the new screen, copy your repository URL, which should appear within the "Quick Setup" pane. The URL will look something like this: `https://github.com/redsoxfan0219/git-demo.git`.
-7. Open a new command line window.
-  a. On Windows, open `PowerShell`.
-  b. On Mac, open `Terminal`.
-  c. On Linux, open `Terminal`.
+7. We're now going to add a dummy file so this repository is not empty. On the same screen, click the "README" link, which appears beneath the line with the Git URL.
+8. On the next screen, you'll see some short text in the window pane. Scroll down and click the green "Commit new file" button".
+9. Now, open a new command line window.
 
+  - On Windows, open `PowerShell`.
+  - On Mac, open `Terminal`.
+  - On Linux, open `Terminal`.
 
+10. `cd` to the directory where you want to store the local copy of your Git repository.
+11. Type `git clone`, then paste your the Git URL into the terminal, and hit `Enter`. You'll see some stuff happen:
 
-### Connecting to GitHub
+![Cloning from Git Remote to Local](git-clone.png)
+
+12. Voilà! You've cloned your remote-native Git repository to your local computer. You can `cd` down into the repository and run an `ls` to see what's there:
+
+![Inspecting Git repo contents](inspect-repo.png)
+
+As you can see, our local repository has the `README.md` file we created earlier.
+
+##### Creating a Local Git Repository
+
+We just cloned a remote copy of a Git repository to our local machine. If we don't have a new project already set up, we can start from our local machine instead.
+
+To start a new Git repository on your local machine,
+
+1. Open a terminal window and `cd` to the location where you'd like to create a Git repository.
+2. Create a new directory using `mkdir <name of your new folder>`.
+3. `cd` into your new directory.
+4. Type `git init -b main` and hit `Enter`:
+
+![Git init](git-init.png)
+
+We've turned our new folder `git-test` into a new Git repository, and we've given it a branch (via that `-b` flag) named `main`. More on branches in just a bit.
+
+#### Staging Your Changes
+
+After you've created a new Git repository via `git init`, you need to add some content to the repository before making your first "commit," which essentially saves a snapshot of your Git repository at a given moment in time. Here, I'm going to use the Mac Terminal's `touch <file-name.extension>` command to create a new dummy file (PowerShell users can enter the `New-File <file-name.extension>` command):
+
+![Touch a New File](touch-file.png)
+
+Our `ls` confirms the new file has been created.
+
+Now, we're (almost) ready to commit our work. Unlike in other programs you may be used to, Git "stages" changes before committing them. There's a good reason for that, but I won't get into it here.
+
+To stage your changes, simply run
+
+```sh
+git add .
+```
+The `.` is a shorthand which means "all". Here, that means stage all files that have been changed. If you'd prefer, you can also stage files individually, like so:
+
+```
+git add README.md
+```
+
+The terminal won't print a confirmation after you stage your content. However, you can run the `git status` command to check if files have been staged. Files listed in green have been staged; files listed in red have not. Here are the results of running `git status` before and staging our file:
+
+![Git staging](git-add.png)
+
+#### Committing Your Contents
+
+Finally, we're now ready to commit our changes. To commit your changes, you will run `git commit -m "some message"`, replacing "some message" with a meaningful description of the changes reflected in this commit. Don't skimp on the message! You may need to use find this commit later, and the message will help you know what this commit captures.
+
+After you hit `Enter`, Git will display a summary of your committed changes.
+
+![git commit](git-commit.png)
+
+To see our most recent commits, you can run `git log` to see your most recent changes, beginning with your latest commit. I've made a few additional commits here for demonstration purposes.
+
+![git log](git-log.png)
+
+That long string of letters and numbers is the "commit hash." Each commit hash is unique. It's what we'll use if we ever need to "roll back" our contents to match the state of the repository reflected in the commit hash.
+
+#### Moving Your Local Git Repository to GitHub
+
+If you've initiated your Git repository on your local machine and you've made at least one commit, you're ready to connect your local Git repository to a remote Git storage system like GitHub.
+
+To do so,
+
+1. Navigate to GitHub and sign-in to your account if necessary. 
+   
+2.  Click the `+` in the upper-right corner, and select "New repository" from the dropdown.
+
+![Create a repository](repo-create.png)
+
+3. Add a repository name and click the green "Create repository" button. While not strictly required, **it is a very good idea to match this name to the name of your local Git repository.**
+
+4. On the next page, copy the Git URL
+
+5. Switch over to your terminal window.
+
+6. If necessary, `cd` into your local Git repository.
+   
+7. Enter `git remote add origin`, paste your GitHub URL, and hit `Enter`.
+   
+8. Verify the connection by entering `git remote -v`. Both the `fetch` and `push` URLs should match the URL you just entered.
+
+![git remote add origin](git-remote-add-origin.png)
+
+### Git Branches
+
+The last major thing I'll discuss in this introduction is what branching is and how it affects how you'll use Git.
+
+Branches are a feature of distributed version control that allow you to store multiple versions of the same Git repository. This allows each developer to work on their own branch before merging their contributions to another branch designated by a team as the primary branch. Nor are you restricted to one branch per person. You might want to perform your testing on a `test` branch, draft your documentation on a `docs-draft` branch, and your save your polished code on a `feature` branch. The names can be whatever they want. However, a developer team may have a "branching strategy" that guides how branches are named and how they interact with one another.
+
+#### Adding a New Branch
+
+A few steps ago, we created our first branch when we initiated a Git repository. The command we used was `git init -b main`. You will use a different Git command for creating subsequent new branches.
+
+There are a few ways of creating new branches, but the one I like most is `git checkout -b <branch-name>`. This step combines two steps: it creates a new branch and changes your working branch to the new branch. You can confirm which branch you are on my entering `git branch`. The following image demonstrates what `git branch` shows before and after running `git checkout -b <branch-name>`.
+
+![git checkout](git-checkout.png)
+
+While Git prints a message after running `git checkout`, you should run `git branch` regularly to ensure you're working on your intended branch.
+
+#### Switching to an Existing Local Branch
+
+While `git checkout -b <branch>` is nice for switching to a new branch, sometimes you'll need to switch to a different branch you previously created. This one is pretty straightforward: use `git switch <existing-branch-name>.
+
+If you can't remember the existing branch name, you can always run a `git branch` to double-check the existing local branches.
+
+#### Pushing a Local Branch to Remote
+
+It's a good practice to send your local branch changes to the remote at least periodically. To do so, after staging and committing your changes, all you need to do is run `git push`. 
+
+#### Getting All Remote Branches on Your Local Repository
+
+Especially when working with collaborators, you will find that your remote repository eventually contains more branches than your local repository. 
+
+Getting all the remote branches and their updates is a bit complicated. You can copy the commands below:
+
+```sh
+git branch -r | grep -v '\->' | sed "s,\x1B\[[0-9;]*[a-zA-Z],,g" | while read remote; do git branch --track "${remote#origin/}" "$remote"; done
+git fetch --all
+git pull --all
+```
 
 ## Git Cheat Sheet
 
-Coming soon!
+`git add <. or filename.extension>`
+
+  - Stages your change(s) prior to a commit.
+
+`git commit -m <"commit message">`
+
+  - Commits your changes. `-m` flag + `"commit message"` used to explain what the commit involves.
+
+`git remote add origin <GitHub URL>`
+
+  - Establishes remote Git repository connection for repositories created locally.
+
+`git remote -v`
+
+  - Prints the `fetch` and `push` URLs of the remote Git repository (e.g., GitHub). 
+
+`git fetch`
+
+  - Retrieves the latest metadata from the remote branch. Does NOT change the codebase on the local Git repository.
+
+`git pull`
+
+  - Retrieves the latest metadata from the remote branch AND updates the codebase in the local working branch.
+
+`git push`
+
+  - When a connection to remote has been established and at least one new commit has been made, transmits commit contents and metadata to remote Git repository.
+
+`git checkout -b <branch-name>`
+
+  - Creates a new branch and switches the working branch to it.
+
+`git switch <branch-name>`
+
+  - Changes the working branch.
+
+`git branch`
+
+  - Prints all local branches and identifies the working branch with a `*`.
+
+`git branch -vv`
+
+  - Prints all local branches alongside each branch's most recent commit details (shortform commit hash and commit message). Identifies the working branch with a `*`.
+
+`git branch -a`
+
+  - Prints all local AND remote branches. Identifies the local working branch with a `*`.
+
+`git log`
+
+  - Prints details for the last three commits, including the commit hash, commit author, and the timestamp of the commit.
+
+
+
+
