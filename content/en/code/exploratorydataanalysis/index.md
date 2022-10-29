@@ -13,7 +13,11 @@ weight: 20
 toc: true
 ---
 
+This page contains an example of exploratory data analysis I've performed. Via the window below, you can explore my Jupyter notebook for this project.
+
 Double-click the `README.md` in the interactive window for more information.
+
+If the window doesn't load properly or if you're viewing on mobile, click [here](https://github.com/redsoxfan0219/dataquest_projects/blob/main/Analysis%20of%20Interstate%20Traffic%20Data.ipynb) to view the source file.
 
 <iframe
   style="position:relative;right:225px;"
