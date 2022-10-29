@@ -13,6 +13,8 @@ weight: 40
 toc: true
 ---
 
+This page contains an example of model documentation. While structurally and tonally similar to actual model documentation I have written, this document uses dummy details so as not to reveal proprietary information.
+
 ## Model Overview
 
 ### Model Purpose
