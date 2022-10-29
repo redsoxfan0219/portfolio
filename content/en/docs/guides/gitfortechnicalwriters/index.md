@@ -137,7 +137,7 @@ Further underscoring murky distinctions between Git and GitHub, we'll start our 
 
 In just a moment, you'll be using the command line to set up your local Git repository. But before you do that, you need to know a few non-Git commands. 
 
-I'll keep things limited to the very basics here. If you're interested in learning more about the command line, check out my [Introduction to the Command Line for Technical Writers](../commandlineintro/index).
+I'll keep things limited to the very basics here. If you're interested in learning more about the command line, check out my [Introduction to the Command Line for Technical Writers](https://benbarksdale.netlify.app/docs/guides/introduction-to-the-command-line-for-technical-writers/).
 
 #### `cd`, Change Working Directory
 
