@@ -13,7 +13,9 @@ weight: 40
 toc: true
 ---
 
-This page contains an example of model documentation. While structurally and tonally similar to actual model documentation I have written, this document uses dummy details so as not to reveal proprietary information.
+Below is an example of AI-ML documentation that I've created in the past. The content of this text is designed meet expectations set in the [Federal Reserve's SR 11-7: Guidance on Model Risk Management](https://www.federalreserve.gov/supervisionreg/srletters/sr1107.htm).
+
+**Note: all proprietary details have been removed and the specific model attributes outlined below have been invented.**
 
 ## Model Overview
 
@@ -57,10 +59,6 @@ The goal of the Sample Weather model is to use advanced analytics techniques to
 **Final Training Data**
 
 [s3://sample-environment/sampleweathermodel/eda/train/]()
-
-Below is an example of AI-ML documentation that I've created in the past. The content of this text is designed meet expectations set in the [Federal Reserve's SR 11-7: Guidance on Model Risk Management](https://www.federalreserve.gov/supervisionreg/srletters/sr1107.htm).
-
-**Note: all proprietary details have been removed and the specific model attributes have been genericized.**
 
 ## Model Outputs
 
