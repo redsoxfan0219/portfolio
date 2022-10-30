@@ -132,7 +132,7 @@ The hyperparamters values vary for each of the 30 n-day models. The list of valu
 
 The following are the input controls for the production model:
 
-- Incoming variables from each source are tested against dictionaries of expected variables. If there are meaningful discrepanies, the model execution fails and an error message is logged on AWS CloudWatch.
+- Incoming variables from each source are tested against dictionaries of expected variables. If there are meaningful discrepancies, the model execution fails and an error message is logged on AWS CloudWatch.
 
 ### Output Controls
 
