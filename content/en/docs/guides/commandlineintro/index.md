@@ -130,7 +130,7 @@ Terminal won't print a confirmation after a successful `touch`. You can verify t
 
 ### Open a File
 
-Let's try opening the file we just created. Use the `open <file-name.txt>`. You'll know you've succeeded because Mac will open your empty file in your default `.txt` file reader (likely TextEdit).
+Let's try opening the file we just created. Use the `open <file-name.txt>` command. You'll know you've succeeded because Mac will open your empty file in your default `.txt` file reader (likely TextEdit).
 
 ![Mac open](mac-open.png)
 
@@ -299,7 +299,7 @@ Terminal won't print a confirmation after a successful `touch`. You can verify t
 
 ### Open a File
 
-Let's try opening the file we just created. Use the `open <file-name.txt>`. You'll know you've succeeded because Mac will open your empty file in your default `.txt` file reader (likely TextEdit).
+Let's try opening the file we just created. Use the `open <file-name.txt>` command. You'll know you've succeeded because Mac will open your empty file in your default `.txt` file reader (likely TextEdit).
 
 ![Linux open file](linux-open-file.png)
 
