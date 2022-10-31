@@ -239,7 +239,7 @@ Here’s what you’re seeing:
 
 - `benbarksdale@Ubuntu:` —This string of text indicates the username and the name of the computer on which you’re working.
   
-`~` — This indicates your home directory. Terminal will start in your home directory when you open a new Terminal window. By default, your home directory is `/home/<username>`.
+- `~` — This indicates your home directory. Terminal will start in your home directory when you open a new Terminal window. By default, your home directory is `/home/<username>`.
 - `$` — This is the prompt. It indicates where you will start entering your commands.
 - `▮` — This is the cursor. It's probably flashing. It tells you where you're typing. It will move as you type something.
 
