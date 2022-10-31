@@ -100,11 +100,11 @@ You can also use `ls` to list the contents of other directories outside your pre
 
 ![Mac List Contents Absolute Path](mac-list-contents-absolute-path.png)
 
-Here you see the contents of a directory that is neither my present working directory nor a subdirectory of my present working directory. Notice that I had to to include a leading `/`. That's part of the absolute path.
+Here you see the contents of a directory that is neither my present working directory nor a subdirectory of my present working directory. Notice that I had to include a leading `/`. That's part of the absolute path.
 
 ### What Are Flags?
 
-With `ls` we learning that "arguments" can be passed to command. Arguments tell the computer on what object (file, directory, etc.) it should perform an action. 
+With `ls` we learned that "arguments" can be passed to command. Arguments tell the computer on what object (file, directory, etc.) it should perform an action. 
 
 "Flags" can also be passed to a command. Flags provide the computer additional information on options or settings you would like to apply to the command. Flags are usually signalled by a leading hyphen (e.g., `-b`), though some flags use two hyphens (e.g., `--version`).
 
@@ -255,18 +255,100 @@ Here’s what you’re seeing:
 
 ### Print the Working Directory
 
+Every new prompt line in Terminal provides a shortened form of your present working directory. Sometimes, you'll need to know the complete form of your present working directory. To do so, type `pwd` and press enter.
+
+![Linux Print Working Directory](linux-print-working-directory.png)
+
+Contrast the line first line with what the Terminal returned. The first line only lists `~`, the special character indicating that the relative path is the home directory. The absolute path printed on the next line shows that `benjaminbarksdale` is a directory sitting under the `home` directory.
+
 ### Listing the Contents of a Directory
+
+When you open a Files window in a directory, you'll see something like this (if you haven't changed your settings):
+
+![Linux Files](linux-files.png)
+
+When you are in a directory in Files, you see the contents of that directory.
+
+Unlike Files, Terminal does not automatically list the contents of the present working directory. To see the contents of the present working directory, type `ls` and press Enter.
+
+![Linux list contents](linux-list-contents.png)
+
+When listed, directories are printed alongside files. Directory do not have a file extension; files do. Terminal also prints files in a different color than directories.
+
+You can also use `ls` to list the contents of other directories outside your present working directory. If the directory is nested beneath the present working directory, simply add the relative path of the directory after `ls`. This is called "passing an argument" to the command.
+
+![Linux List Contents Absolute Path](linux-list-contents-absolute.png)
+
+Here you see the contents of a directory that is neither my present working directory nor a subdirectory of my present working directory. Notice that I had to include a leading `/`. That's part of the absolute path.
 
 ### What Are Flags?
 
+With `ls` we learned that "arguments" can be passed to command. Arguments tell the computer on what object (file, directory, etc.) it should perform an action. 
+
+"Flags" can also be passed to a command. Flags provide the computer additional information on options or settings you would like to apply to the command. Flags are usually signalled by a leading hyphen (e.g., `-b`), though some flags use two hyphens (e.g., `--version`).
+
 ### Listing All Contents of a Directory
+
+By default, `ls` returns all the *visible* content in a directory. However, there may be hidden content present. To see visible *and* hidden contents of a directory, use `ls -a`. The `-a` flag stands for "all."
+
+![Linux List All Contents Relative](linux-list-all-contents-relative.png)
+
+The hidden contents, which have a leading `.`, are printed alongside the visible contents.
+
+Like many other CLI commands, `ls` can take both a flag and an argument in the same command. Enter `ls -a <absolute path>` to print all contents of a directory.
+
+![Mac List All Contents Absolute](linux-list-all-contents-absolute.png)
 
 ### Creating a New File
 
+Use the `touch <file-name.extension>` command to create new files in Terminal. You can create a new file using any extension. 
+
+Terminal won't print a confirmation after a successful `touch`. You can verify the file was created by running `ls`.
+
+![Linux touch](linux-create-new-file.png)
+
 ### Open a File
+
+Let's try opening the file we just created. Use the `open <file-name.txt>`. You'll know you've succeeded because Mac will open your empty file in your default `.txt` file reader (likely TextEdit).
+
+![Linux open file](linux-open-file.png)
+
+![Mac opened file](linux-opened-file.png)
 
 ### Changing Your Working Directory
 
-#### Absolute and Relative Paths
+You know that Terminal defaults to the home directory when opened. What if you want to perform actions outside that directory? The easiest way is to change the working directory and perform actions afterward.
 
+To change your working directory, enter `cd <pathway>`. Here, I jump down one directory from `benjaminbarksdale` into `Desktop`. The change will be reflected in the text of the next line, which shows `Desktop` as the relative path.
 
+![Linux change directory down](linux-change-directory-down-relative.png)
+
+We can use `cd` to move up a directory, too. Use `cd ../`.
+
+![Linux change directory up](linux-change-directory-up-relative.png)
+
+You can move up or down more than one directory at a time. Here, I jump down two directories in one command. In the next line, I chain two `../`s to return to my original directory.
+
+![Linux change two directories](linux-change-directory-chained-relative.png)
+
+Like we saw with `ls`, `cd` allows us to change directories using an absolute path regardless of our current directory. 
+
+![Linux change directory](linux-change-directory-absolute.png)
+
+### Tab Completion
+
+There's a handy trick to make opening a file or changing your directory even quicker: [tab completion](https://www.howtogeek.com/195207/use-tab-completion-to-type-commands-faster-on-any-operating-system/). When writing out a directory, for example, I can press `TAB` after typing a few characters, and Terminal will fill in the directory. Here, I typed `Doc` before pressing `TAB`, saving me a little bit of time. When you add up those little bits of time saved, you start to realize how much more efficient this is than navigating with your mouse. 
+
+Note that, with tab completion, your computer looks for unique values based on your initial input. If it encounters two file or directory names with the same root, the terminal will stop at the point that the two file names diverge. It then expects you to clarify which file or directory you intend to use. If I have two sub-directories in my present working directory, one called `Document` and one called `Documents`, and I type `cd Doc` and hit `TAB`, Terminal will fill in `ument`, stopping at `cd Document`. It expects me to either press `Enter` to change directory into `Document` or enter an `s` before entering into the `Documents` directory.
+
+### Making a New Directory
+
+The final basic command is `mkdir <directory-name>`, the command you use to create a new directory. Terminal won't print a confirmation after you press enter. Run an `ls` to confirm the directory's creation.
+
+![Linux make new directory](linux-make-directory.png)
+
+### Next Steps
+
+You now know most of the CLI commands you'll need as a technical writer. Consult [this cheat sheet](https://www.guru99.com/linux-commands-cheat-sheet.html) to explore other commands.
+
+If you'd like to take the next steps in learning the docs as code approach to documentation, check out my introductions to [Git](https://benbarksdale.netlify.app/docs/guides/introduction-to-git-for-technical-writers/) and [GitHub]().
