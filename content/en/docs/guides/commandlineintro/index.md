@@ -341,4 +341,4 @@ The final basic command is `mkdir <directory-name>`, the command you use to crea
 
 You now know most of the CLI commands you'll need as a technical writer. Consult [this cheat sheet](https://www.guru99.com/linux-commands-cheat-sheet.html) to explore other commands.
 
-If you'd like to take the next steps in learning the docs as code approach to documentation, check out my introductions to [Git](https://benbarksdale.netlify.app/docs/guides/introduction-to-git-for-technical-writers/) and [GitHub]().
+If you'd like to take the next steps in learning the docs as code approach to documentation, check out my introductions to [Git](https://benbarksdale.netlify.app/docs/guides/introduction-to-git-for-technical-writers/) and [GitHub](https://benbarksdale.netlify.app/docs/guides/introduction-to-github-for-technical-writers/).

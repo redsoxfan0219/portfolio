@@ -328,6 +328,12 @@ This section consolidates all the commands I've described above. It adds a few o
 
   - Prints details for the last three commits, including the commit hash, commit author, and the timestamp of the commit.
 
+## Next Steps
 
+This page covers most of what you'll ever need from Git. Occasionally, you may need to use Git in more advanced ways. For those situations, I recommend downloading and consulting Scott Chacon and Ben Staub's *Pro Git*, which you can download for free [here](https://github.com/progit/progit2/releases/download/2.1.360/progit.pdf).
+
+If you'd like to take the next steps in learning the docs as code approach to documentation, check out the next article in the series, [Introduction to GitHub for Technical Writers](https://benbarksdale.netlify.app/docs/guides/introduction-to-github-for-technical-writers/).
+
+ 
 
 
