@@ -206,17 +206,7 @@ Here's a newly opened PowerShell window:
 
 ### Print the Working Directory
 
-### Listing the Contents of a Directory
-
-### What Are Flags?
-
-### Listing All Contents of a Directory
-
-### Creating a New File
-
-### Open a File
-
-### Changing Your Working Directory
+Coming soon!
 
 ### Making a New Directory
 
