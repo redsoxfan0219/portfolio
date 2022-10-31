@@ -27,7 +27,7 @@ The command line goes by different names. Mac and Linux calls it **Terminal**. W
 
 ## Why Would a Technical Writer Want to Know the Command Line?
 
-The biggest reason for a technical writer to learn the command line is that it's central to the [docs as code](https://www.writethedocs.org/guide/docs-as-code/), an approach to technical writing that has ballooned in popularity since the early 2010s. Docs as code involves a combination of a markup language, a static site generator, version control, and web deployment. In some cases, knowing the command helps work with these tools. In other cases, these tools cannot be used without the command line.
+The biggest reason for a technical writer to learn the command line is that it's central to [docs as code](https://www.writethedocs.org/guide/docs-as-code/), an approach to technical writing that has ballooned in popularity since the early 2010s. Docs as code involves a combination of a markup language, a static site generator, version control, and web deployment. In some cases, knowing the command helps work with these tools. In other cases, these tools cannot be used without the command line.
 
 Another reason to learn the command line is that it can help you do your job more efficiently. After you've grown accustomed to the command line, you'll find that tasks like creating new files and moving files around can be done much quicker with the command line. Learning the command line also provides you most of the skills needed to learn "shell scripting," which is a way of saving CLI commands so you can run them again. With shell scripting, you can automate boring tasks.
 
@@ -55,7 +55,7 @@ The command line can be found the same way you find your other programs.
 
 I recommend adding **Terminal**  to your MacOS Dock. Click and drag the **Terminal** icon from your search returns and drop it in your Dock.
 
-## Understanding the Terminal Window
+### Understanding the Terminal Window
 
 When first opened, the command line info will display some information. This section explains what you're seeing.
 
