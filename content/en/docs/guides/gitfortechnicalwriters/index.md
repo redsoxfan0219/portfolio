@@ -161,7 +161,7 @@ To start a new Git repository on your local machine,
    
 3. `cd` into your new directory.
    
-4. Type `git init -b main` and hit `Enter`:
+4. Enter `git init -b main`:
 
 ![Git init](git-init.png)
 
@@ -202,7 +202,7 @@ After you press `Enter`, Git will display a summary of your committed changes.
 
 ![git commit](git-commit.png)
 
-To see our most recent commits, you can run `git log` to see your most recent changes, beginning with your latest commit. I've made a few additional commits here for demonstration purposes.
+Run `git log` to see your most recent changes, beginning with your latest commit. I've made a few additional commits here for demonstration purposes.
 
 ![git log](git-log.png)
 
@@ -228,7 +228,7 @@ To do so,
 
 6. If necessary, `cd` into your local Git repository.
    
-7. Enter `git remote add origin`, paste your GitHub URL, and hit `Enter`.
+7. Type `git remote add origin`, paste your GitHub URL, and press `Enter`.
    
 8. Verify the connection by entering `git remote -v`. Both the `fetch` and `push` URLs should match the URL you just entered.
 
