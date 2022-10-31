@@ -295,7 +295,7 @@ Use the `touch <file-name.extension>` command to create new files in Terminal. Y
 
 Terminal won't print a confirmation after a successful `touch`. You can verify the file was created by running `ls`.
 
-![Linux touch](linux-create-new-file.png)
+![Linux touch](linux-touch.png)
 
 ### Open a File
 
