@@ -13,11 +13,13 @@ weight: 70
 toc: true
 ---
 
-Increasingly, technical writing jobs require knowledge of something called "version control," and by far the most popular version control system is a program called [Git](https://git-scm.com/). It's commonplace now for TW job posts simply list Git as a required skill, without explain explaining what it is or how it relates to TW.
+Increasingly, technical writing jobs require knowledge of something called "version control. The most popular version control system is a program called [Git](https://git-scm.com/). It's commonplace now for TW job posts to list Git as a required skill.
 
 This page provides an explanation of what Git is and how to use it. I emphasize topics of interests to technical writers, especially those who write or are interested in writing developer documentation.
 
 If you don't want to read the explanation of what version control and Git are, you can jump to either the [Git Instructions](#git-instructions) or [Git Cheat Sheet](#git-cheat-sheet).
+
+**Important**: These instructions assume some familiarity with the command line. If you are new to the command line, start with my [Introduction to the Command Line for Technical Writers](https://benbarksdale.netlify.app/docs/guides/introduction-to-the-command-line-for-technical-writers/).
 
 ## What Is Version Control?
 
@@ -25,63 +27,39 @@ Version control is simply a way of  tracking changes made to files stored within
 
 ## Why Should I Know Version Control?
 
-Think about instances where you've collaborated on document with a peer using a program like Microsoft Word. Unless you were using a cloud-based version of Word in Microsoft Teams or SharePoint, you inevitably ran into situations where you had to maintain different file version. You probably exchanged several emails with attachments named `Working Document_v2`, `Working Document_v2.1`, or, God forbid, `Working Document_Final`. (And when that `Final` version proved not to be "final," you may have created another version called `Working Document_final_final`. Where does it end?)
+Think about instances where you've worked on a document with a peer using a program like Microsoft Word. You probably ran into situations where you had to maintain different file versions. You may have exchanged several emails with attachments named `Working Document_v2`, `Working Document_v2.1`, or `Working Document_Final`.
 
-If you've experienced situations like the one described above, you've already experienced the reason why version control is necessary. It's inevitable that the system described above will break down at some point. Someone will forget to download the latest version from their email, or someone will download the right version but forget to re-save with a different `_v<>` number. 
+If you've experienced situations like the one described above, you've already experienced the reason why version control is necessary. It's inevitable that the system described above will break down. Someone will forget to download the latest version from their email, or someone will download the right version but forget to re-save with a different `_v<>` number. 
 
-The other major headache with this approach is not knowing what changes were made in each file version. Even if you devised a fool-proof method for the suffix-based versioning system, how can you know which changes were associated with which version? Maybe you remember broadly what each version covers. But to version a document properly, you would need a computer-like memory for the details or every version—every paragraph, every word, every comma—and you would need to be able to hold those multiple versions in your head and compare them line-by-line. That's functionally impossible.
+The other problem with this approach is not knowing what changes were made in each file version. Maybe you can remember broadly what each version covers. But to version a document properly, you would need a computer-like memory for the details or every version—every paragraph, every word, every comma—and you would need to be able to hold those multiple versions in your head and compare them line-by-line. That's functionally impossible.
 
 Therefore, we need some way of systematically tracking changes from one version to the next, some way to understand what changes are associated with each version of a file. 
 
 What we need is something called a version control system.
 
-**TL;DR** You'll give yourself headaches (and future you will hate present you) if you manually save multiple versions of a file. 
-
 ## What Is a Version Control System?
 
 A version control system (VCS) is a set of computational tools that allow users to systematically track changes to a file or set of files within a directory. A VCS also allows for users to "roll back" to an earlier version of their file(s) if they so choose.
 
-### What is Distributed Version Control?
-
-There are two primary models of version control: centralized version control and distributed version control. 
-
-With centralized version control, all users on a team save their changes on their personal computers and save their changes to a centralized system of record in a server. (The proper term is "committing" a change; more on this later.)
-
-With distributed version control, each developer on a team maintains a copy of that system of record on their personal computer. When developers want to join their code with others, they submit their system of record to an orchestration system that registers differences between the various systems of record. That orchestration system allows developers to reconcile differences and merge the various systems of record into a single system of record.
-
-Having said all that, distributed version control is what I'll be focused on in the rest of this guide. While there are still teams out there that use centralized version control, distributed version control is far more popular because it's faster and it better enables collaboration between team members.
-
-**TL;DR** In all likelihood, you'll only ever use distributed version control, so don't worry about the difference between it and centralized version.
-
 ## What is Git?
 
-Git is a distributed VCS. It's by far the most popular VCS in the world.
+Git is a VCS. It's by far the most popular VCS in the world.
 
 Unlike many programs technical writers may be familiar with (MS Word, MadCap Flare, etc.), Git is a command-line tool. Therefore, it is directed by textual commands entered in the command line, not by the point-and-click direction of a mouse.
-
-### Aside on the Command Line
-
-For those technical writers that are unfamiliar with the command line, using it can be scary the first few times. You're totally going to break your computer if you enter the wrong character, right? (Nah, not likely.) 
-
-Fear of the command line is completely understandable if you've never used it. But the fact is that the command line is, in many respects, superior to point-and-click direction once you get used to it. It's oftentimes far quicker. You can do things with it that you can't with your mouse. Using it brings you closer to the tools that developers use, helping to break down the barrier that can separate technical writers from their developer counterparts.
-
-So don't fear the command line. Embrace it.
 
 ### Git and GitHub: Related But Distinct
 
 You'll sometimes hear Git used interchangeably with [GitHub](https://github.com/). That's wrong. Git and GitHub are separate entities and do separate things. 
 
-Git, again, is a distributed version control system used for tracking the history and details of various file states. Git is run from the command line.
+Git, again, is a version control system used for tracking the history and details of various file states. Git is run from the command line.
 
 GitHub, by contrast, is a website and server used for *storing* Git repositories and their files. It also has a few other key functions that I won't get into here.
 
-What makes the distinction between Git and GitHub murkier is that, as their similar names might suggest, they are often used in tandem. Project developers will version control their code on their local computer using Git. When they are ready, they will "push" their files and accompanying Git history to GitHub, where the files and Git history can be accessed by their co-developers.
+What makes the distinction between Git and GitHub murkier is that they are often used in tandem. Project developers will version control their code on their local computer using Git. When they are ready, they will "push" their files and accompanying Git history to GitHub, where the files and Git history can be viewed by their co-developers.
 
 While I won't describe them in detail here, you should know that GitHub isn't the only Git storage and orchestration website out there. [GitLab](https://about.gitlab.com/) and [Bitbucket](https://bitbucket.org/product) are two other examples.
 
 So, one of the distinctions between Git and GitHub is that you can have Git without GitHub, but you can't have GitHub without Git. 
-
-**TL;DR** Git is a command line tool for versioning code and documentation. GitHub is a website for storing Git repositories. Git and GitHub are often used in combination.
 
 ## Git Instructions
 
@@ -93,7 +71,7 @@ If you're ready to start using Git, this section is for you.
 
 If you're on a Mac, you will install Git via [Homebrew](https://brew.sh/). To do that,
    
-1. Open your Terminal (the command line on Mac).
+1. Open Terminal.
 
 2. Enter ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
 
@@ -115,8 +93,8 @@ If you're on a Windows machine,
 
 If you're on a Linux machine, the exact mechanism you'll use will vary by your distribution. 
 
-1. Start by opening the Terminal. You might find this in your distribution by searching for "Shell."
-2. Enter the command appropriate to your distribution.
+1. Open Terminal. 
+2. Enter the command appropriate to your distribution. If you aren't sure of your distribution, follow the Ubuntu instructions.
 
 - If you are using Fedora, RHEL, or CentOS, enter ```sudo dnf install git-all```.
 - If you are using Ubuntu or another Debian-based distribution, enter ```sudo apt install git-all```
@@ -127,51 +105,11 @@ This section outlines the basic commands of Git. After reading this section, you
 
 #### Setting up GitHub
 
-Further underscoring murky distinctions between Git and GitHub, we'll start our Git journey by setting up a GitHub account. If you already have a GitHub account, skip to the next section. Note that if you're using GitHub for your job, you'll probably use a version of GitHub called GitHub Enterprise. If that's the case, you'll need to set up create a separate work account through GitHub Enterprise.
+We'll start our Git journey by setting up a GitHub account. If you already have a GitHub account, skip to the next section. Note that if you're using GitHub for your job, you'll probably use a version of GitHub called GitHub Enterprise. If that's the case, you'll need to set up create a separate work account through GitHub Enterprise.
 
 1. Navigate to [github.com](https://github.com/).
 2. Click 'Sign up' in the upper-right.
 3. Follow the prompts to set up your account.
-
-### Two Key Non-Git Commands
-
-In just a moment, you'll be using the command line to set up your local Git repository. But before you do that, you need to know a few non-Git commands. 
-
-I'll keep things limited to the very basics here. If you're interested in learning more about the command line, check out my [Introduction to the Command Line for Technical Writers](https://benbarksdale.netlify.app/docs/guides/introduction-to-the-command-line-for-technical-writers/).
-
-#### `cd`, Change Working Directory
-
-When you open your command line application, the command line will default to working in some high-level directory (i.e., folder). It's probably not the one you want to be working in, so you'll need to change your directory. You'll need to do this each time you open a new command line window.
-
-When you open your command line, you'll see a screen that looks like the following image. Your command line may look a little different, especially if you are using Windows' `PowerShell`. But functionally this should be the same.
-
-![Command Line Start Screen](command-line-home-directory.png)
-
-The `~ benjaminmoran$` indicates the working directory. You can think of this as communicating the computer's present perspective: it currently sees the `/Users/benjaminmoran` folder and its contents and can perform actions on them.
-
-However, most of the content you interact with is *not* stored in the default working directory that appears when you open a new terminal window (this is called the "home directory"). If you want to perform actions on another directory's contents, you can either tell the machine where those other contents are or you can move the working directory to that location and perform actions on them there. It's generally easier to do the latter.
-
-To move your working directory, you will enter: `cd <new directory>`, replacing `<new directory>` with the location that you want to work in. For example, I store my Git repositories in within a sub-directory of my `Documents` folder. This image shows how I get there from my home directory:
-
-![Changing Directories with the Command Line](command-line-working-directory.png)
-
-I am now in my `GitHub` sub-directory within `Documents`. Note that I didn't need to run multiple `cd` commands. I knew my `GitHub` directory was in my `Documents` directory, so I was able to jump two directories down with one command.
-
-#### Tab Completion
-
-There's a handy trick to make changing your directory even quicker: [tab completion](https://www.howtogeek.com/195207/use-tab-completion-to-type-commands-faster-on-any-operating-system/). When writing out a directory, for example, I can enter `TAB` after typing a few characters, and the terminal will fill in the directory. Here, I just typed `Doc` before hitting `TAB`, saving me a little bit of time. When you add up those little bits of time saved, you start to realize how much more efficient this is than navigating with your mouse. 
-
-Note that, with tab completion, your computer looks for unique values based on your initial input. If it encounters two file or directory names with the same root, the terminal will stop at the point that the two file names differ. It then expects you to clarify which file or directory you intend to use. For example, imagine I have two sub-directories in my present working directory, one called `Document` and one called `Documents`. If I type `cd Doc` and hit `TAB`, the terminal will fill in `ument`, stopping at `cd Document`, because this is where the two file names differ. The terminal expects me to either hit `Enter` to change directory into `Document` or enter an `s` before entering into the `Documents` directory.
-
-#### `ls`, List Contents of the Working Directory
-
-You've changed into your new directory. How do you know what's there without looking at your File Explorer or Finder?
-
-`ls` is here to help. `ls` lists the contents of your present working directory:
-
-![ls command](command-line-ls.png)
-
-The only thing I want to point out here is that sub-directories and files are both printed when `ls` is entered. Sub-directories do not have a file extension; files do. 
 
 #### Setting Up a Git Repository
 
@@ -217,9 +155,12 @@ We just cloned a remote copy of a Git repository to our local machine. If we don
 
 To start a new Git repository on your local machine,
 
-1. Open a terminal window and `cd` to the location where you'd like to create a Git repository.
+1. Open a CLI window and `cd` to the location where you'd like to create a Git repository.
+   
 2. Create a new directory using `mkdir <name-of-your-new-directory>`.
+   
 3. `cd` into your new directory.
+   
 4. Type `git init -b main` and hit `Enter`:
 
 ![Git init](git-init.png)
@@ -253,9 +194,11 @@ The terminal won't print a confirmation after you stage your content. However, y
 
 #### Committing Your Contents
 
-Finally, we're now ready to commit our changes. To commit your changes, you will run `git commit -m "some message"`, replacing "some message" with a meaningful description of the changes reflected in this commit. Don't skimp on the message! You may need to find this commit later, and the message will help you know what this commit captures.
+Finally, we're ready to commit our changes. 
 
-After you hit `Enter`, Git will display a summary of your committed changes.
+To commit your changes, run `git commit -m "some message"`, replacing "some message" with a meaningful description of the changes reflected in this commit. Don't skimp on the message! You may need to find this commit later, and the message will help you know what this commit captures.
+
+After you press `Enter`, Git will display a summary of your committed changes.
 
 ![git commit](git-commit.png)
 
@@ -281,7 +224,7 @@ To do so,
 
 4. On the next page, copy the Git URL.
 
-5. Switch over to your terminal window.
+5. Switch over to your CLI window.
 
 6. If necessary, `cd` into your local Git repository.
    
@@ -309,19 +252,19 @@ While Git prints a message after running `git checkout`, you should run `git bra
 
 #### Switching to an Existing Local Branch
 
-While `git checkout -b <branch>` is nice for switching to a new branch, sometimes you'll need to switch to a different branch you previously created. This one is pretty straightforward: use `git switch <existing-branch-name>`.
+While `git checkout -b <branch>` allows you to switch to a new branch, sometimes you'll need to switch to a different branch you previously created. To do so, use `git switch <existing-branch-name>`.
 
-If you can't remember the existing branch name, you can always run a `git branch` to double-check the existing local branches.
+If you can't remember the existing branch name, run `git branch` to double-check the existing local branches.
 
 #### Pushing a Local Branch to Remote
 
-It's a good practice to send your local branch changes to the remote at least periodically. To do so, after staging and committing your changes, all you need to do is run `git push`. 
+It's a good practice to send your local branch changes to the remote at least periodically. After staging and committing your changes, all you need to do is run `git push`. 
 
 #### Getting All Remote Branches on Your Local Repository
 
 Especially when working with collaborators, you will find that your remote repository eventually contains more branches than your local repository. 
 
-Getting all the remote branches and their updates is a bit complicated. To make things simple, you can just copy the commands below:
+Getting all the remote branches and their updates is a bit complicated. To make things simple, copy the commands below:
 
 ```sh
 git branch -r | grep -v '\->' | sed "s,\x1B\[[0-9;]*[a-zA-Z],,g" | while read remote; do git branch --track "${remote#origin/}" "$remote"; done
