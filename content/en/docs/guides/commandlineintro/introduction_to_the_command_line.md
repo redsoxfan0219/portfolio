@@ -1,17 +1,4 @@
----
-title: "Introduction to the Command Line for Technical Writers"
-description: ""
-lead: ""
-date: 2022-10-28T09:08:22-04:00
-lastmod: 2022-10-28T09:08:22-04:00
-draft: false
-images: []
-menu:
-  docs:
-    parent: "articles-and-guides"
-weight: 60
-toc: true
----
+# Introduction to the Command Line for Technical Writers
 
 This guide is intended for technical writers who have no or limited experience with the command line.
 
@@ -206,102 +193,11 @@ Here's a newly opened PowerShell window:
 
 ### Print the Working Directory
 
-The working directory is where the command line is currently "looking." It describes the direct where the command line can perform actions.
-
-Unlike in other systems CLIs, PowerShell prints the complete (i.e., "absolute") working directory with each new prompt line. Nevertheless, you can enter `pwd` to print the working directory.
-
-![PowerShell print working directory](powershell-print-working-directory.png)
-
-### Listing the Contents of a Directory
-
-When you open a File Explorer window in a directory, you'll see something like this (if you haven't changed your settings):
-
-![Windows File Explorer](powershell-files.png)
-
-When you are in a directory in File Explorer, you see the contents of that directory.
-
-Unlike File Explorer, PowerShell does not automatically list the contents of the present working directory. To see the contents of the present working directory, type `ls` and press Enter.
-
-![powershell-list-contents](powershell-list-contents-relative.png)
-
-When listed, directories are printed alongside files. Directory do not have a file extension; files do.
-
-You can also use `ls` to list the contents of other directories outside your present working directory. If the directory is nested beneath the present working directory, simply add the relative path of the directory after `ls`. This is called "passing an argument" to the command.
-
-![PowerShell List Contents Absolute Path](powershell-list-contents-absolute-path.png)
-
-Here you see the contents of a directory that is neither my present working directory nor a subdirectory of my present working directory. Notice that I had to include a leading `C:\`. That's part of the absolute path.
-
-### What Are Flags?
-
-With `ls` we learned that "arguments" can be passed to a command. Arguments tell the computer on what object (file, directory, etc.) it should perform an action. 
-
-"Flags" can also be passed to a command. Flags provide the computer additional information on options or settings you would like to apply to the command. Flags are usually signalled by a leading hyphen (e.g., `-b`), though some flags use two hyphens (e.g., `--version`).
-
-### Listing All Contents of a Directory
-
-By default, `ls` returns all the *visible* content in a directory. However, there may be hidden content present. To see visible *and* hidden contents of a directory, use `ls -Force`. The `-Force` flag stands for "all." 
-
-Note: my Windows settings have been changed to show all hidden files, so the photos below show hidden files with a simple `ls`.
-
-![Powershell List All Contents Relative](powershell-list-all-contents-relative.png)
-
-The hidden contents, which have a leading `.`, are printed first in the returns, followed by the visible contents.
-
-Like many other CLI commands, `ls` can take both a flag and an argument in the same command. Enter `ls -a <absolute path>` to print all contents of a directory.
-
-![PowerShell List All Contents Absolute](powershell-list-all-contents-absolute.png)
-
-### Creating a New File
-
-Use the `ni <file-name.extension>` command to create new files in PowerShell. `ni` is the alias for the `New-Item`. You can write this command either way.
-
-Using `ni`, you can create a new file for any extension.
-
-When you press enter, PowerShell will print a confirmation message that includes the file permissions, creation time, and file name.
-
-![PowerShell New-Item](powershell-new-item.png)
-
-### Open a File
-
-Let's try opening the file we just created. If you are in the same working directory as the file, type the file name (with extension) and press Enter. You'll know you've succeeded because Windows will open your empty file in your default `.txt` file reader (likely Notepad).
-
-![PowerShell open file](powershell-open-file.png)
-
-![Windows opened file](powershell-opened-file.png)
-
-### Changing Your Working Directory
-
-You know that PowerShell defaults to the home directory when a new window is opened. What if you want to perform actions outside that directory? The easiest way is to change the working directory and perform actions afterward.
-
-To change your working directory, enter `cd .\<pathway>`. Here, I jump down one directory from `moranb7` into `Desktop`. The change will be reflected in the text of the next line, which shows `Documents` as the relative path.
-
-![PowerShell change directory down](powershell-change-directory-down-relative.png)
-
-We can use `cd` to move up a directory, too. Use `cd ../`.
-
-![PowerShell change directory up](powershell-change-directory-up-relative.png)
-
-You can move up or down more than one directory at a time. Here, I jump down two directories in one command. In the next line, I chain two `../`s to return to my original directory.
-
-![PowerShell change multiple directories](powershell-change-directory-chained-relative.png)
-
-Like we saw with `ls`, `cd` allows us to change directories using an absolute path regardless of our current directory. 
-
-![Powershell change absolute directory](powershell-change-directory-absolute.png)
-
-### Tab Completion
-
-There's a handy trick to make opening a file or changing your directory even quicker: [tab completion](https://www.howtogeek.com/195207/use-tab-completion-to-type-commands-faster-on-any-operating-system/). When writing out a directory, for example, I can press `TAB` after typing a few characters, and Terminal will fill in the directory. In the screenshot above, I typed `Doc` before pressing `TAB`, saving me a little bit of time. When you add up those little bits of time saved, you start to realize how much more efficient this is than navigating with your mouse. 
-
-Note that, with tab completion, your computer looks for unique values based on your initial input. If it encounters two file or directory names with the same root, the terminal will stop at the point that the two file names diverge. It then expects you to clarify which file or directory you intend to use. If I have two sub-directories in my present working directory, one called `Document` and one called `Documents`, and I type `cd Doc` and hit `TAB`, Terminal will fill in `ument`, stopping at `cd Document`. It expects me to either press `Enter` to change directory into `Document` or enter an `s` before entering into the `Documents` directory.
+Coming soon!
 
 ### Making a New Directory
 
-The final basic command is `md <directory-name>`, the command you use to create a new directory (the full command is `mkdir`). PowerShell will print a confirmation message after creating the new directory
-
-![PowerShell make new directory](powershell-make-new-directory.png)
-
+The final basic command is `mkdir <directory-name>`, the command you use to create a new directory. Terminal won't print a confirmation after you press enter. Run an `ls` to confirm the directory's creation.
 
 ### Next Steps
 

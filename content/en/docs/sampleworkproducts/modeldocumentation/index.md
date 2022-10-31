@@ -97,7 +97,7 @@ The second data input includes the policyholder's claim history.
 
 #### Rationale
 
-Claim history is used to predict potential incidents of fraud. Historically, catastrophic events invite high levels of insurance fraud.
+Claim history is used to predict potential incidents of fraud. Historically, catastrophic events have invited high levels of insurance fraud.
 
 #### Cleaning, Transformations, and Feature Engineering
 
