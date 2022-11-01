@@ -228,7 +228,7 @@ When listed, directories are printed alongside files. Directory do not have a fi
 
 You can also use `ls` to list the contents of other directories outside your present working directory. If the directory is nested beneath the present working directory, simply add the relative path of the directory after `ls`. This is called "passing an argument" to the command.
 
-![PowerShell List Contents Absolute Path](powershell-list-contents-absolute-path.png)
+![PowerShell List Contents Absolute Path](powershell-list-contents-absolute.png)
 
 Here you see the contents of a directory that is neither my present working directory nor a subdirectory of my present working directory. Notice that I had to include a leading `C:\`. That's part of the absolute path.
 
@@ -300,7 +300,7 @@ Note that, with tab completion, your computer looks for unique values based on y
 
 The final basic command is `md <directory-name>`, the command you use to create a new directory (the full command is `mkdir`). PowerShell will print a confirmation message after creating the new directory
 
-![PowerShell make new directory](powershell-make-new-directory.png)
+![PowerShell make new directory](powershell-make-directory.png)
 
 
 ### Next Steps
