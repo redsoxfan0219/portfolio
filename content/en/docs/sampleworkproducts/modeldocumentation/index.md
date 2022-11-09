@@ -15,7 +15,9 @@ toc: true
 
 Below is an example of AI-ML documentation that I've created in the past. The content of this text is designed to meet expectations established in the [Federal Reserve's SR 11-7: Guidance on Model Risk Management](https://www.federalreserve.gov/supervisionreg/srletters/sr1107.htm).
 
-**Note: all proprietary details have been removed and the specific model attributes outlined below have been invented.**
+**Note on style:** The text below relies heavily on passive voice. This is by design. Model documentation style guides recommend erring on the side of passive voice when the agent is not important or the agent is a computer script or automation process. I also do not use the second-person present tense here because this is not an instructional manual. For an example of text that more closely follows commonly used style guides (e.g., [Google's developer documentation style guide](https://developers.google.com/style)), see my [Introduction to the Command Line for Technical Writers](https://benbarksdale.netlify.app/docs/guides/introduction-to-the-command-line-for-technical-writers/).
+
+**Disclaimer: all proprietary details have been removed and the specific model attributes outlined below have been invented.**
 
 ## Model Overview
 
