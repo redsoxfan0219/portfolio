@@ -13,11 +13,11 @@ weight: 60
 toc: true
 ---
 
-This guide is intended for technical writers who have no or limited experience with the command line.
+Are you a technical writer who wants to learn the command line? This guide is for you.
 
 Windows, Mac, and Linux computers have slightly different command line interfaces (CLIs). Below, I include separate instructions for all three. After reading the first two sections, skip to the instructions  that apply to the system you're using.
 
-Note: for Linux, I base my instructions on the Ubuntu distribution. There may be minor differences for you if are using a different distribution.
+Note: for Linux, I base my instructions on the Ubuntu distribution. You may encounter minor differences if are using a different distribution.
 
 ## What Is the Command Line?
 
@@ -27,11 +27,11 @@ The command line goes by different names. Mac and Linux calls it **Terminal**. W
 
 ## Why Would a Technical Writer Want to Know the Command Line?
 
-The biggest reason for a technical writer to learn the command line is that it's central to [docs as code](https://www.writethedocs.org/guide/docs-as-code/), an approach to technical writing that has ballooned in popularity since the early 2010s. Docs as code involves a combination of a markup language, a static site generator, version control, and web deployment. In some cases, knowing the command helps work with these tools. In other cases, these tools cannot be used without the command line.
+The biggest reason for a technical writer to learn the command line is that it's central to [docs as code](https://www.writethedocs.org/guide/docs-as-code/), an approach to technical writing that has ballooned in popularity since the early 2010s. Docs as code involves a combination of a markup language, a static site generator, version control, and web deployment. In some cases, knowing the command helps work with these tools. In other cases, you cannot use these tools without the command line.
 
-Another reason to learn the command line is that it can help you do your job more efficiently. After you've grown accustomed to the command line, you'll find that tasks like creating new files and moving files around can be done much quicker with the command line. Learning the command line also provides you most of the skills needed to learn "shell scripting," which is a way of saving CLI commands so you can run them again. With shell scripting, you can automate boring tasks.
+Another reason to learn the command line is that it can help you do your job more efficiently. After you've grown accustomed to the command line, you'll find you can do tasks like creating new files and moving files more quickly with the command line. Learning the command line also provides you most of the skills needed to learn "shell scripting," which is a way of saving CLI commands so you can run them again. With shell scripting, you can automate boring tasks.
 
-Finally, there are some things you might get asked to do that would be extremely painful to do without the command line. For example, imagine you have a few hundred documentation pages, each of which has a file name ending with three digits. Now imagine your manager asks you to add a `0` to the start of these numbers in preparation for the files rolling over into the thousands. If you had to do that manually—right-click, "Rename," add `0`, click away from the file name—it would be a mind-melting task. With the command line, you can implement this change in one line of commands. 
+Finally, the command line can help you perform tasks that would be extremely tedious if you were to use a GUI tool. For example, imagine you have a few hundred documentation pages, each of which has a file name ending with three digits. Now imagine your manager asks you to add a `0` to the start of these numbers. If you had to do that manually—right-click, "Rename," add `0`, click away from the file name—it would be a mind-melting task. With the command line, you can implement this change in one line of commands. 
 
 ## Instructions Table of Contents
 
@@ -47,7 +47,7 @@ Ready to get started? Click the link that applies to your system.
 
 ### Opening the Command Line
 
-The command line can be found the same way you find your other programs. 
+You can find the same way you find your other programs. 
 
 1. Open a Finder window.
 2. Use the search bar to search for **Terminal**.
@@ -57,7 +57,7 @@ I recommend adding **Terminal**  to your MacOS Dock. Click and drag the **Termin
 
 ### Understanding the Terminal Window
 
-When first opened, the command line info will display some information. This section explains what you're seeing.
+When first opened, the command line will display some information. This section explains what you're seeing.
 
 Here's a newly opened Terminal window. Your color schema may be different.
 
@@ -66,25 +66,25 @@ Here's a newly opened Terminal window. Your color schema may be different.
 Here's what you're seeing:
 
 - "Last login" gives a timestamp for the last time you opened a Terminal window. If you open a new window (⌘ + N), the timestamp will change.
-- The next three lines relate to the "shell," which is the invisible program used to convert your textual commands into computer actions. Don't worry about this for now.
+- The next three lines relate to the "shell," which is the program Mac uses to convert your textual commands into computer actions. Don't worry about this for now.
 - The last line tells you five things:
   - `(base) Macbook Pro:`. This tells you the machine you're working on. It'll differ for your machine, unless you're on a Macbook Pro.
   - `~`. This indicates your home directory. Terminal will start in your home directory when you open a new window.
   - `benjaminmoran`. This indicates your "relative working directory." "Relative" here means "short form," and "working directory" indicates where the terminal is currently "looking." More on this soon.
   - `$`. This is the prompt. It may be a `%` for you. It indicates where you will start entering your commands.
-  - `▮`. This is the cursor. It's likely flashing. It tells you where you're typing. It will move as you type something.
+  - `▮`. This is the cursor. It's likely flashing. It tells you where you're typing. It moves as you type something.
 
 ### Print the Working Directory
 
-Every new prompt line in Terminal provides a shortened form of your present working directory. Sometimes, you'll need to know the complete form of your present working directory. To do so, type `pwd` and press enter.
+Every new prompt line in Terminal provides a shortened form of your present working directory. Sometimes, you need to know the complete form of your present working directory. To do so, type `pwd` and press enter.
 
 ![Mac Present Working Directory](mac-present-working-directory.png)
 
-Contrast the line first line with what the Terminal returned. The first line only lists `benjaminmoran`, the relative path. The absolute path printed on the next line shows that `benjaminmoran` is a directory sitting under the `Users` directory.
+Contrast the first line with what the Terminal returned. The first line only lists `benjaminmoran`, the relative path. The absolute path printed on the next line shows that `benjaminmoran` is a directory sitting under the `Users` directory.
 
 ### Listing the Contents of a Directory
 
-When you open a Finder window in a directory, you'll see something like this (if you haven't changed your settings):
+When you open a Finder window in a directory, you see something like this (if you haven't changed your settings):
 
 ![Mac Finder](mac-finder.png)
 
@@ -94,9 +94,9 @@ Unlike Finder, Terminal does not automatically list the contents of the present 
 
 ![mac-list-contents](mac-list-contents.png)
 
-When listed, directories are printed alongside files. Directory do not have a file extension; files do.
+When listed, directories are printed alongside files. Directories do not have file extensions; files do.
 
-You can also use `ls` to list the contents of other directories outside your present working directory. If the directory is nested beneath the present working directory, simply add the relative path of the directory after `ls`. This is called "passing an argument" to the command.
+You can also use `ls` to list the contents of other directories outside your present working directory. If the directory is nested beneath the present working directory, add the relative path of the directory after `ls`. This is called "passing an argument" to the command.
 
 ![Mac List Contents Absolute Path](mac-list-contents-absolute-path.png)
 
@@ -104,9 +104,9 @@ Here you see the contents of a directory that is neither my present working dire
 
 ### What Are Flags?
 
-With `ls` we learned that "arguments" can be passed to a command. Arguments tell the computer on what object (file, directory, etc.) it should perform an action. 
+With `ls` you learned that "arguments" can be passed to a command. Arguments tell the computer on what object (file, directory, etc.) it should perform an action. 
 
-"Flags" can also be passed to a command. Flags provide the computer additional information on options or settings you would like to apply to the command. Flags are usually signalled by a leading hyphen (e.g., `-b`), though some flags use two hyphens (e.g., `--version`).
+You can also pass "flags" to a command. Flags provide the computer additional information on options or settings you would like to apply to the command. Flags are usually signalled by a leading hyphen (e.g., `-b`). Some flags use two hyphens (e.g., `--version`).
 
 ### Listing All Contents of a Directory
 
@@ -124,13 +124,13 @@ Like many other CLI commands, `ls` can take both a flag and an argument in the s
 
 Use the `touch <file-name.extension>` command to create new files in Terminal. You can create a new file using any extension. 
 
-Terminal won't print a confirmation after a successful `touch`. You can verify the file was created by running `ls`.
+Terminal doesn't print a confirmation after a successful `touch`. You can verify the file was created by running `ls`.
 
 ![Mac touch](mac-touch.png)
 
 ### Open a File
 
-Let's try opening the file we just created. Use the `open <file-name.txt>` command. You'll know you've succeeded because Mac will open your empty file in your default `.txt` file reader (likely TextEdit).
+Let's try opening the file you just created. Use the `open <file-name.txt>` command. You'll know you've succeeded because Mac will open your empty file in your default `.txt` file reader (likely TextEdit).
 
 ![Mac open](mac-open.png)
 
@@ -140,11 +140,11 @@ Let's try opening the file we just created. Use the `open <file-name.txt>` comma
 
 You know that Terminal defaults to the home directory when opened. What if you want to perform actions outside that directory? The easiest way is to change the working directory and perform actions afterward.
 
-To change your working directory, enter `cd <pathway>`. Here, I jump down one directory from `benjaminmoran` into `Documents`. The change will be reflected in the text of the next line, which shows `Documents` as the relative path.
+To change your working directory, enter `cd <pathway>`. Here, I jump down one directory from `benjaminmoran` into `Documents`. The change is reflected in the text of the next line, which shows `Documents` as the relative path.
 
 ![Mac change directory](mac-change-directory-down-relative.png)
 
-We can use `cd` to move up a directory, too. Use `cd ../`.
+You can use `cd` to move up a directory, too. Use `cd ../`.
 
 ![Mac change directory](mac-change-directory-up-relative.png)
 
@@ -152,19 +152,19 @@ You can move up or down more than one directory at a time. Here, I jump down two
 
 ![Mac change directory](mac-change-directory-chained-relative.png)
 
-Like we saw with `ls`, `cd` allows us to change directories using an absolute path regardless of our current directory. 
+Like you saw with `ls`, `cd` allows us to change directories using an absolute path regardless of our current directory. 
 
 ![Mac change directory](mac-change-directory-absolute.png)
 
 ### Tab Completion
 
-There's a handy trick to make opening a file or changing your directory even quicker: [tab completion](https://www.howtogeek.com/195207/use-tab-completion-to-type-commands-faster-on-any-operating-system/). When writing out a directory, for example, I can press `TAB` after typing a few characters, and Terminal will fill in the directory. Here, I typed `Doc` before pressing `TAB`, saving me a little bit of time. When you add up those little bits of time saved, you start to realize how much more efficient this is than navigating with your mouse. 
+There's a handy trick to make opening a file or changing your directory even quicker: [tab completion](https://www.howtogeek.com/195207/use-tab-completion-to-type-commands-faster-on-any-operating-system/). When writing out a directory, for example, you can press `TAB` after typing a few characters, and Terminal will fill in the directory. Here, I typed `Doc` before pressing `TAB`, saving me a little bit of time. When you add up those little bits of time saved, you start to realize how much more efficient this is than navigating with your mouse. 
 
-Note that, with tab completion, your computer looks for unique values based on your initial input. If it encounters two file or directory names with the same root, the terminal will stop at the point that the two file names diverge. It then expects you to clarify which file or directory you intend to use. If I have two sub-directories in my present working directory, one called `Document` and one called `Documents`, and I type `cd Doc` and hit `TAB`, Terminal will fill in `ument`, stopping at `cd Document`. It expects me to either press `Enter` to change directory into `Document` or enter an `s` before entering into the `Documents` directory.
+Note that, with tab completion, your computer looks for unique values based on your initial input. If it encounters two file or directory names with the same root, the terminal stops at the point that the two file names diverge. It then expects you to clarify which file or directory you intend to use. If you have two sub-directories in my present working directory, one called `Document` and one called `Documents`, and you type `cd Doc` and hit `TAB`, Terminal will fill in `ument`, stopping at `cd Document`. It expects you to either press `Enter` to change directory into `Document` or enter an `s` before entering into the `Documents` directory.
 
 ### Making a New Directory
 
-The final basic command is `mkdir <directory-name>`, the command you use to create a new directory. Terminal won't print a confirmation after you press enter. Run an `ls` to confirm the directory's creation.
+The final basic command is `mkdir <directory-name>`, the command you use to create a new directory. Terminal doesn't print a confirmation after you press enter. Run an `ls` to confirm the directory's creation.
 
 ![Mac make new directory](mac-make-new-directory.png)
 
@@ -172,7 +172,7 @@ The final basic command is `mkdir <directory-name>`, the command you use to crea
 
 You now know most of the CLI commands you'll need as a technical writer. Consult [this cheat sheet](https://www.guru99.com/linux-commands-cheat-sheet.html) to explore other commands. (This cheat sheet is for Linux, but Mac's Terminal follows Linux commands.)
 
-If you'd like to take the next steps in learning the docs as code approach to documentation, check out my introductions to [Git](https://benbarksdale.netlify.app/docs/guides/introduction-to-git-for-technical-writers/) and [GitHub]().
+If you want to take the next steps in learning the docs as code approach to documentation, check out my introductions to [Git](https://benbarksdale.netlify.app/docs/guides/introduction-to-git-for-technical-writers/) and [GitHub]().
 
 ## Windows Instructions
 
@@ -186,7 +186,7 @@ Note: where applicable, I'll be using PowerShell command [aliases](https://fresh
 
 ### Understanding the PowerShell Window
 
-When first opened, the command line info will display some information. This section explains what you're seeing.
+When first opened, the command line will display some information. This section explains what you're seeing.
 
 Here's a newly opened PowerShell window:
 
@@ -202,7 +202,7 @@ Here's a newly opened PowerShell window:
   
   - `>` — This is the prompt. It indicates where you will start entering your commands. 
   
-  - `_` [not pictured] — This is the cursor. It's probably flashing. It tells you where you're typing. It will move as you type something.
+  - `_` [not pictured] — This is the cursor. It's probably flashing. It tells you where you're typing. It moves as you type something.
 
 ### Print the Working Directory
 
@@ -214,7 +214,7 @@ Unlike in other systems CLIs, PowerShell prints the complete (i.e., "absolute") 
 
 ### Listing the Contents of a Directory
 
-When you open a File Explorer window in a directory, you'll see something like this (if you haven't changed your settings):
+When you open a File Explorer window in a directory, you see something like this (if you haven't changed your settings):
 
 ![Windows File Explorer](powershell-files.png)
 
@@ -224,19 +224,19 @@ Unlike File Explorer, PowerShell does not automatically list the contents of the
 
 ![powershell-list-contents](powershell-list-contents-relative.png)
 
-When listed, directories are printed alongside files. Directory do not have a file extension; files do.
+When listed, directories are printed alongside files. Directories do not have file extensions; files do.
 
 You can also use `ls` to list the contents of other directories outside your present working directory. If the directory is nested beneath the present working directory, simply add the relative path of the directory after `ls`. This is called "passing an argument" to the command.
 
-![PowerShell List Contents Absolute Path](powershell-list-contents-absolute-path.png)
+![PowerShell List Contents Absolute Path](powershell-list-contents-absolute.png)
 
 Here you see the contents of a directory that is neither my present working directory nor a subdirectory of my present working directory. Notice that I had to include a leading `C:\`. That's part of the absolute path.
 
 ### What Are Flags?
 
-With `ls` we learned that "arguments" can be passed to a command. Arguments tell the computer on what object (file, directory, etc.) it should perform an action. 
+With `ls` you learned that "arguments" can be passed to a command. Arguments tell the computer on what object (file, directory, etc.) it should perform an action. 
 
-"Flags" can also be passed to a command. Flags provide the computer additional information on options or settings you would like to apply to the command. Flags are usually signalled by a leading hyphen (e.g., `-b`), though some flags use two hyphens (e.g., `--version`).
+"Flags" can also be passed to a command. Flags provide the computer additional information on options or settings you would like to apply to the command. Flags are usually signalled by a leading hyphen (e.g., `-b`). Some flags use two hyphens (e.g., `--version`).
 
 ### Listing All Contents of a Directory
 
@@ -246,7 +246,7 @@ Note: my Windows settings have been changed to show all hidden files, so the pho
 
 ![Powershell List All Contents Relative](powershell-list-all-contents-relative.png)
 
-The hidden contents, which have a leading `.`, are printed first in the returns, followed by the visible contents.
+The hidden contents, which have a leading `.`, appear first in the returns, followed by the visible contents.
 
 Like many other CLI commands, `ls` can take both a flag and an argument in the same command. Enter `ls -a <absolute path>` to print all contents of a directory.
 
@@ -264,7 +264,7 @@ When you press enter, PowerShell will print a confirmation message that includes
 
 ### Open a File
 
-Let's try opening the file we just created. If you are in the same working directory as the file, type the file name (with extension) and press Enter. You'll know you've succeeded because Windows will open your empty file in your default `.txt` file reader (likely Notepad).
+Let's try opening the file you just created. If you are in the same working directory as the file, type the file name (with extension) and press Enter. You know you've succeeded because Windows will open your empty file in your default `.txt` file reader (likely Notepad).
 
 ![PowerShell open file](powershell-open-file.png)
 
@@ -274,11 +274,11 @@ Let's try opening the file we just created. If you are in the same working direc
 
 You know that PowerShell defaults to the home directory when a new window is opened. What if you want to perform actions outside that directory? The easiest way is to change the working directory and perform actions afterward.
 
-To change your working directory, enter `cd .\<pathway>`. Here, I jump down one directory from `moranb7` into `Desktop`. The change will be reflected in the text of the next line, which shows `Documents` as the relative path.
+To change your working directory, enter `cd .\<pathway>`. Here, I jump down one directory from `moranb7` into `Desktop`. The change is reflected in the text of the next line, which shows `Documents` as the relative path.
 
 ![PowerShell change directory down](powershell-change-directory-down-relative.png)
 
-We can use `cd` to move up a directory, too. Use `cd ../`.
+You can use `cd` to move up a directory, too. Use `cd ../`.
 
 ![PowerShell change directory up](powershell-change-directory-up-relative.png)
 
@@ -292,22 +292,22 @@ Like we saw with `ls`, `cd` allows us to change directories using an absolute pa
 
 ### Tab Completion
 
-There's a handy trick to make opening a file or changing your directory even quicker: [tab completion](https://www.howtogeek.com/195207/use-tab-completion-to-type-commands-faster-on-any-operating-system/). When writing out a directory, for example, I can press `TAB` after typing a few characters, and Terminal will fill in the directory. In the screenshot above, I typed `Doc` before pressing `TAB`, saving me a little bit of time. When you add up those little bits of time saved, you start to realize how much more efficient this is than navigating with your mouse. 
+There's a handy trick to make opening a file or changing your directory even quicker: [tab completion](https://www.howtogeek.com/195207/use-tab-completion-to-type-commands-faster-on-any-operating-system/). When writing out a directory, for example, you can press `TAB` after typing a few characters, and Terminal fills in the directory. In the screenshot above, I typed `Doc` before pressing `TAB`, saving me a little bit of time. When you add up those little bits of time saved, you start to realize how much more efficient this is than navigating with your mouse. 
 
-Note that, with tab completion, your computer looks for unique values based on your initial input. If it encounters two file or directory names with the same root, the terminal will stop at the point that the two file names diverge. It then expects you to clarify which file or directory you intend to use. If I have two sub-directories in my present working directory, one called `Document` and one called `Documents`, and I type `cd Doc` and hit `TAB`, Terminal will fill in `ument`, stopping at `cd Document`. It expects me to either press `Enter` to change directory into `Document` or enter an `s` before entering into the `Documents` directory.
+Note that, with tab completion, your computer looks for unique values based on your initial input. If it encounters two file or directory names with the same root, the terminal will stop at the point that the two file names diverge. It then expects you to clarify which file or directory you intend to use. If you have two sub-directories in my present working directory, one called `Document` and one called `Documents`, and you type `cd Doc` and hit `TAB`, Terminal fills in `ument`, stopping at `cd Document`. It expects you to either press `Enter` to change directory into `Document` or enter an `s` before entering into the `Documents` directory.
 
 ### Making a New Directory
 
-The final basic command is `md <directory-name>`, the command you use to create a new directory (the full command is `mkdir`). PowerShell will print a confirmation message after creating the new directory
+The final basic command is `md <directory-name>`, the command you use to create a new directory (the full command is `mkdir`). PowerShell prints a confirmation message after creating the new directory
 
-![PowerShell make new directory](powershell-make-new-directory.png)
+![PowerShell make new directory](powershell-make-directory.png)
 
 
 ### Next Steps
 
-You now know most of the CLI commands you'll need as a technical writer. Consult [this cheat sheet](http://ramblingcookiemonster.github.io/images/Cheat-Sheets/powershell-basic-cheat-sheet2.pdf) to explore other commands.
+You now know most of the CLI commands you need as a technical writer. Consult [this cheat sheet](http://ramblingcookiemonster.github.io/images/Cheat-Sheets/powershell-basic-cheat-sheet2.pdf) to explore other commands.
 
-If you'd like to take the next steps in learning the docs as code approach to documentation, check out my introductions to [Git](https://benbarksdale.netlify.app/docs/guides/introduction-to-git-for-technical-writers/) and [GitHub]().
+If you want to continue learning the docs as code approach to documentation, check out my introductions to [Git](https://benbarksdale.netlify.app/docs/guides/introduction-to-git-for-technical-writers/) and [GitHub](https://benbarksdale.netlify.app/docs/guides/introduction-to-github-for-technical-writers/).
 
 ## Linux Instructions
 
@@ -320,7 +320,7 @@ I recommend adding Terminal to the dash. Click and drag the Terminal icon from t
 
 ### Understanding the Terminal Window
 
-When first opened, the command line info will display some information. This section explains what you're seeing.
+When first opened, the command line will display some information. This section explains what you're seeing.
 
 Here's a newly opened Terminal window:
 
@@ -328,15 +328,15 @@ Here's a newly opened Terminal window:
 
 Here’s what you’re seeing:
 
-- `benbarksdale@Ubuntu:` —This string of text indicates the username and the name of the computer on which you’re working.
+- `benbarksdale@Ubuntu:` — This string of text indicates the username and the name of the computer on which you’re working.
   
-- `~` — This indicates your home directory. Terminal will start in your home directory when you open a new Terminal window. By default, your home directory is `/home/<username>`.
+- `~` — This indicates your home directory. Terminal starts in your home directory when you open a new Terminal window. By default, your home directory is `/home/<username>`.
 - `$` — This is the prompt. It indicates where you will start entering your commands.
-- `▮` — This is the cursor. It's probably flashing. It tells you where you're typing. It will move as you type something.
+- `▮` — This is the cursor. It's probably flashing. It tells you where you're typing. It moves as you type something.
 
 ### Print the Working Directory
 
-Every new prompt line in Terminal provides a shortened form of your present working directory. Sometimes, you'll need to know the complete form of your present working directory. To do so, type `pwd` and press enter.
+Every new prompt line in Terminal provides a shortened form of your present working directory. Sometimes, you need to know the complete form of your present working directory. To do so, type `pwd` and press enter.
 
 ![Linux Print Working Directory](linux-print-working-directory.png)
 
@@ -344,7 +344,7 @@ Contrast the line first line with what the Terminal returned. The first line onl
 
 ### Listing the Contents of a Directory
 
-When you open a Files window in a directory, you'll see something like this (if you haven't changed your settings):
+When you open a Files window in a directory, you see something like this (if you haven't changed your settings):
 
 ![Linux Files](linux-files.png)
 
@@ -354,7 +354,7 @@ Unlike Files, Terminal does not automatically list the contents of the present w
 
 ![Linux list contents](linux-list-contents.png)
 
-When listed, directories are printed alongside files. Directory do not have a file extension; files do. Terminal also prints files in a different color than directories.
+When listed, directories are printed alongside files. Directories do not have file extensions; files do. Terminal also prints files in a different color than directories.
 
 You can also use `ls` to list the contents of other directories outside your present working directory. If the directory is nested beneath the present working directory, simply add the relative path of the directory after `ls`. This is called "passing an argument" to the command.
 
@@ -366,7 +366,7 @@ Here you see the contents of a directory that is neither my present working dire
 
 With `ls` we learned that "arguments" can be passed to a command. Arguments tell the computer on what object (file, directory, etc.) it should perform an action. 
 
-"Flags" can also be passed to a command. Flags provide the computer additional information on options or settings you would like to apply to the command. Flags are usually signalled by a leading hyphen (e.g., `-b`), though some flags use two hyphens (e.g., `--version`).
+"Flags" can also be passed to a command. Flags provide the computer additional information on options or settings you would like to apply to the command. Flags are usually signalled by a leading hyphen (e.g., `-b`). Some flags use two hyphens (e.g., `--version`).
 
 ### Listing All Contents of a Directory
 
@@ -374,7 +374,7 @@ By default, `ls` returns all the *visible* content in a directory. However, ther
 
 ![Linux List All Contents Relative](linux-list-all-contents-relative.png)
 
-The hidden contents, which have a leading `.`, are printed alongside the visible contents.
+The hidden contents, which have a leading `.`, appear alongside the visible contents.
 
 Like many other CLI commands, `ls` can take both a flag and an argument in the same command. Enter `ls -a <absolute path>` to print all contents of a directory.
 
@@ -384,13 +384,13 @@ Like many other CLI commands, `ls` can take both a flag and an argument in the s
 
 Use the `touch <file-name.extension>` command to create new files in Terminal. You can create a new file using any extension. 
 
-Terminal won't print a confirmation after a successful `touch`. You can verify the file was created by running `ls`.
+Terminal doesn't print a confirmation after a successful `touch`. You can verify the file was created by running `ls`.
 
 ![Linux touch](linux-touch.png)
 
 ### Open a File
 
-Let's try opening the file we just created. Use the `open <file-name.txt>` command. You'll know you've succeeded because Mac will open your empty file in your default `.txt` file reader (likely TextEdit).
+Let's try opening the file you just created. Use the `open <file-name.txt>` command. You'll know you've succeeded because Mac will open your empty file in your default `.txt` file reader (likely TextEdit).
 
 ![Linux open file](linux-open-file.png)
 
@@ -400,11 +400,11 @@ Let's try opening the file we just created. Use the `open <file-name.txt>` comma
 
 You know that Terminal defaults to the home directory when opened. What if you want to perform actions outside that directory? The easiest way is to change the working directory and perform actions afterward.
 
-To change your working directory, enter `cd <pathway>`. Here, I jump down one directory from `benjaminbarksdale` into `Desktop`. The change will be reflected in the text of the next line, which shows `Desktop` as the relative path.
+To change your working directory, enter `cd <pathway>`. Here, I jump down one directory from `benjaminbarksdale` into `Desktop`. The change is reflected in the text of the next line, which shows `Desktop` as the relative path.
 
 ![Linux change directory down](linux-change-directory-down-relative.png)
 
-We can use `cd` to move up a directory, too. Use `cd ../`.
+You can use `cd` to move up a directory, too. Use `cd ../`.
 
 ![Linux change directory up](linux-change-directory-up-relative.png)
 
@@ -412,24 +412,24 @@ You can move up or down more than one directory at a time. Here, I jump down two
 
 ![Linux change two directories](linux-change-directory-chained-relative.png)
 
-Like we saw with `ls`, `cd` allows us to change directories using an absolute path regardless of our current directory. 
+Like you saw with `ls`, `cd` allows us to change directories using an absolute path regardless of our current directory. 
 
 ![Linux change directory](linux-change-directory-absolute.png)
 
 ### Tab Completion
 
-There's a handy trick to make opening a file or changing your directory even quicker: [tab completion](https://www.howtogeek.com/195207/use-tab-completion-to-type-commands-faster-on-any-operating-system/). When writing out a directory, for example, I can press `TAB` after typing a few characters, and Terminal will fill in the directory. Here, I typed `Doc` before pressing `TAB`, saving me a little bit of time. When you add up those little bits of time saved, you start to realize how much more efficient this is than navigating with your mouse. 
+There's a handy trick to make opening a file or changing your directory even quicker: [tab completion](https://www.howtogeek.com/195207/use-tab-completion-to-type-commands-faster-on-any-operating-system/). When writing out a directory, for example, you can press `TAB` after typing a few characters, and Terminal will fill in the directory. Here, I typed `Doc` before pressing `TAB`, saving me a little bit of time. When you add up those little bits of time saved, you start to realize how much more efficient this is than navigating with your mouse. 
 
-Note that, with tab completion, your computer looks for unique values based on your initial input. If it encounters two file or directory names with the same root, the terminal will stop at the point that the two file names diverge. It then expects you to clarify which file or directory you intend to use. If I have two sub-directories in my present working directory, one called `Document` and one called `Documents`, and I type `cd Doc` and hit `TAB`, Terminal will fill in `ument`, stopping at `cd Document`. It expects me to either press `Enter` to change directory into `Document` or enter an `s` before entering into the `Documents` directory.
+Note that, with tab completion, your computer looks for unique values based on your initial input. If it encounters two file or directory names with the same root, the terminal will stop at the point that the two file names diverge. It then expects you to clarify which file or directory you intend to use. If you have two sub-directories in my present working directory, one called `Document` and one called `Documents`, and you type `cd Doc` and hit `TAB`, Terminal fills in `ument`, stopping at `cd Document`. It expects you to either press `Enter` to change directory into `Document` or enter an `s` before entering into the `Documents` directory.
 
 ### Making a New Directory
 
-The final basic command is `mkdir <directory-name>`, the command you use to create a new directory. Terminal won't print a confirmation after you press enter. Run an `ls` to confirm the directory's creation.
+The final basic command is `mkdir <directory-name>`, the command you use to create a new directory. Terminal doesn't print a confirmation after you press enter. Run an `ls` to confirm the directory's creation.
 
 ![Linux make new directory](linux-make-directory.png)
 
 ### Next Steps
 
-You now know most of the CLI commands you'll need as a technical writer. Consult [this cheat sheet](https://www.guru99.com/linux-commands-cheat-sheet.html) to explore other commands.
+You now know most of the CLI commands you need as a technical writer. Consult [this cheat sheet](https://www.guru99.com/linux-commands-cheat-sheet.html) to explore other commands.
 
-If you'd like to take the next steps in learning the docs as code approach to documentation, check out my introductions to [Git](https://benbarksdale.netlify.app/docs/guides/introduction-to-git-for-technical-writers/) and [GitHub](https://benbarksdale.netlify.app/docs/guides/introduction-to-github-for-technical-writers/).
+If you want to continue learning the docs as code approach to documentation, check out my introductions to [Git](https://benbarksdale.netlify.app/docs/guides/introduction-to-git-for-technical-writers/) and [GitHub](https://benbarksdale.netlify.app/docs/guides/introduction-to-github-for-technical-writers/).
