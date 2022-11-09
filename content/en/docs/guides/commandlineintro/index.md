@@ -17,7 +17,7 @@ Are you a technical writer who wants to learn the command line? This guide is fo
 
 Windows, Mac, and Linux computers have slightly different command line interfaces (CLIs). Below, I include separate instructions for all three. After reading the first two sections, skip to the instructions  that apply to the system you're using.
 
-Note: for Linux, I base my instructions on the Ubuntu distribution. You may encounter minor differences if are using a different distribution.
+**Note for Linux users:** I base my instructions on the Ubuntu distribution. You may encounter minor differences if are using a different distribution.
 
 ## What Is the Command Line?
 
@@ -46,8 +46,6 @@ Ready to get started? Click the link that applies to your system.
 ## Mac Instructions
 
 ### Opening the Command Line
-
-You can find the same way you find your other programs. 
 
 1. Open a Finder window.
 2. Use the search bar to search for **Terminal**.
