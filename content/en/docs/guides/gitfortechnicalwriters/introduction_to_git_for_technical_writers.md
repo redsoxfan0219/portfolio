@@ -1,6 +1,6 @@
 # Introduction to Git for Technical Writers
 
-Increasingly, technical writing jobs require knowledge of something called "version control. The most popular version control system is a program called [Git](https://git-scm.com/). It's commonplace now for TW job posts to list Git as a required skill.
+Increasingly, technical writing jobs require knowledge of something called "version control." The most popular version control system is a program called [Git](https://git-scm.com/). It's commonplace now for TW job posts to list Git as a required skill.
 
 This page provides an explanation of what Git is and how to use it. I emphasize topics of interests to technical writers, especially those who write or are interested in writing developer documentation.
 
