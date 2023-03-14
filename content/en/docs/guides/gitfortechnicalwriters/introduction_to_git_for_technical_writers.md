@@ -318,7 +318,3 @@ This section consolidates all the commands I've described above. It adds a few o
 ## Next Steps
 
 This page covers most of what you'll ever need from Git. Occasionally, you may need to use Git in more advanced ways. For those situations, I recommend downloading and consulting Scott Chacon and Ben Staub's *Pro Git*, which you can download for free [here](https://github.com/progit/progit2/releases/download/2.1.360/progit.pdf).
-
- 
-
-
