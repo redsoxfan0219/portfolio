@@ -194,9 +194,9 @@ Here's a newly opened PowerShell window:
   
 - The final line communicates four things:
 
-  - `PS` — This is the PowerShell indicator. It distinguishes PowerShell from other Windows’ other CLI, Command Prompt.
+  - `PS` — This is the PowerShell indicator. It distinguishes PowerShell from Windows’ other CLI, Command Prompt.
 
-  - `C:\Users\moranb7` — This indicates your "absolute working directory." This indicates the full pathway where Terminal is currently "looking." More on this soon.
+  - `C:\Users\moranb7` — This indicates your "absolute working directory." It tells you the full pathway where PowerShell is currently "looking." More on this soon.
   
   - `>` — This is the prompt. It indicates where you will start entering your commands. 
   
