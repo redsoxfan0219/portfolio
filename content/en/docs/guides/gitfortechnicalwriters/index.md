@@ -31,7 +31,7 @@ Think about instances where you've worked on a document with a peer using a prog
 
 If you've experienced situations like the one described above, you've already experienced the reason why version control is necessary. It's inevitable that the system described above will break down. Someone will forget to download the latest version from their email, or someone will download the right version but forget to re-save with a different `_v<>` number. 
 
-The other problem with this approach is not knowing what changes were made in each file version. Maybe you can remember broadly what each version covers. But to version a document properly, you would need a computer-like memory for the details or every version—every paragraph, every word, every comma—and you would need to be able to hold those multiple versions in your head and compare them line-by-line. That's functionally impossible.
+The other problem with this approach is not knowing what changes were made in each file version. Maybe you can remember broadly what each version covers. But to version a document properly, you would need a computer-like memory for the details of every version—every paragraph, every word, every comma—and you would need to be able to hold those multiple versions in your head and compare them line-by-line. That's functionally impossible.
 
 Therefore, we need some way of systematically tracking changes from one version to the next, some way to understand what changes are associated with each version of a file. 
 
