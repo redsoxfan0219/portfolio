@@ -169,7 +169,7 @@ We've turned our new directory `git-test` into a Git repository, and we've given
 
 #### Staging Your Changes
 
-After you've created a new Git repository via `git init`, you need to add some content to the repository before making your first "commit." A commit essentially saves a snapshot of your Git repository at a given moment in time. Here, I'm going to use the Mac Terminal's `touch <file-name.extension>` command to create a new dummy file (PowerShell users can enter the `New-File <file-name.extension>` command):
+After you've created a new Git repository via `git init`, you need to add some content to the repository before making your first "commit." A commit essentially saves a snapshot of your Git repository at a given moment in time. Here, I'm going to use the Mac Terminal's `touch <file-name.extension>` command to create a new dummy file (PowerShell users can enter the `New-Item <file-name.extension>` command):
 
 ![Touch a New File](touch-file.png)
 
