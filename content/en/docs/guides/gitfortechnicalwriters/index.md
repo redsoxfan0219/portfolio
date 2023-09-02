@@ -63,8 +63,6 @@ So, one of the distinctions between Git and GitHub is that you can have Git with
 
 ## Git Instructions
 
-TEST TEST TEST
-
 If you're ready to start using Git, this section is for you.
 
 ### Git Installation
