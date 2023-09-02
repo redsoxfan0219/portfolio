@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Git for Technical Writers"
-description: ""
+description: "description"
 lead: ""
 date: 2022-10-28T09:08:22-04:00
 lastmod: 2022-10-28T09:08:22-04:00
@@ -62,6 +62,8 @@ While I won't describe them in detail here, you should know that GitHub isn't th
 So, one of the distinctions between Git and GitHub is that you can have Git without GitHub, but you can't have GitHub without Git. 
 
 ## Git Instructions
+
+TEST 
 
 If you're ready to start using Git, this section is for you.
 

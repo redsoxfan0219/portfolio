@@ -1,4 +1,64 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hi, I'm Ben Barksdale. on</title><link>https://benbarksdale.netlify.app/</link><description>Recent content in Hi, I'm Ben Barksdale. on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><copyright>Copyright (c) 2022 Ben Barksdale</copyright><lastBuildDate>Tue, 06 Oct 2020 08:47:36 +0000</lastBuildDate><atom:link href="https://benbarksdale.netlify.app/index.xml" rel="self" type="application/rss+xml"/><item><title>Code</title><link>https://benbarksdale.netlify.app/code/</link><pubDate>Thu, 23 Jun 2022 00:43:21 -0400</pubDate><guid>https://benbarksdale.netlify.app/code/</guid><description/></item><item><title>Docs</title><link>https://benbarksdale.netlify.app/docs/</link><pubDate>Wed, 22 Jun 2022 23:53:31 -0400</pubDate><guid>https://benbarksdale.netlify.app/docs/</guid><description/></item><item><title>Graphics</title><link>https://benbarksdale.netlify.app/graphics/</link><pubDate>Wed, 22 Jun 2022 23:53:31 -0400</pubDate><guid>https://benbarksdale.netlify.app/graphics/</guid><description/></item><item><title>Personal</title><link>https://benbarksdale.netlify.app/personal/</link><pubDate>Wed, 22 Jun 2022 22:37:20 -0400</pubDate><guid>https://benbarksdale.netlify.app/personal/</guid><description>Before I started working in technical writing, I was an academic specializing in Renaissance English literature. I got my PhD at Ohio State. If you&amp;rsquo;re having trouble sleeping, you can read my dissertation. As you might expect from someone who studied literature, I like to read a lot. I still read Renaissance literature occasionally — Edmund Spenser and John Milton are still among my favorites. I&amp;rsquo;ve also come to really enjoy the work of Marcel Proust.</description></item><item><title>Resume</title><link>https://benbarksdale.netlify.app/resume/</link><pubDate>Thu, 27 Aug 2020 19:23:18 +0200</pubDate><guid>https://benbarksdale.netlify.app/resume/</guid><description>Experience # Senior Documentation Engineer
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hi, I&#39;m Ben Barksdale. on </title>
+    <link>https://benbarksdale.netlify.app/</link>
+    <description>Recent content in Hi, I&#39;m Ben Barksdale. on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright (c) 2022 Ben Barksdale</copyright>
+    <lastBuildDate>Tue, 06 Oct 2020 08:47:36 +0000</lastBuildDate>
+    
+        <atom:link href="https://benbarksdale.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Code</title>
+      <link>https://benbarksdale.netlify.app/code/</link>
+      <pubDate>Thu, 23 Jun 2022 00:43:21 -0400</pubDate>
+      
+      <guid>https://benbarksdale.netlify.app/code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docs</title>
+      <link>https://benbarksdale.netlify.app/docs/</link>
+      <pubDate>Wed, 22 Jun 2022 23:53:31 -0400</pubDate>
+      
+      <guid>https://benbarksdale.netlify.app/docs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graphics</title>
+      <link>https://benbarksdale.netlify.app/graphics/</link>
+      <pubDate>Wed, 22 Jun 2022 23:53:31 -0400</pubDate>
+      
+      <guid>https://benbarksdale.netlify.app/graphics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Personal</title>
+      <link>https://benbarksdale.netlify.app/personal/</link>
+      <pubDate>Wed, 22 Jun 2022 22:37:20 -0400</pubDate>
+      
+      <guid>https://benbarksdale.netlify.app/personal/</guid>
+      <description>Before I started working in technical writing, I was an academic specializing in Renaissance English literature. I got my PhD at Ohio State. If you&amp;rsquo;re having trouble sleeping, you can read my dissertation. As you might expect from someone who studied literature, I like to read a lot. I still read Renaissance literature occasionally — Edmund Spenser and John Milton are still among my favorites. I&amp;rsquo;ve also come to really enjoy the work of Marcel Proust.</description>
+    </item>
+    
+    <item>
+      <title>Resume</title>
+      <link>https://benbarksdale.netlify.app/resume/</link>
+      <pubDate>Thu, 27 Aug 2020 19:23:18 +0200</pubDate>
+      
+      <guid>https://benbarksdale.netlify.app/resume/</guid>
+      <description>Experience # Senior Documentation Engineer
 Nationwide Mutual Insurance Company, Enterprise Analytics Office
 2019—Present
-Provide end-to-end documentation services for a variety of technical audiences, including data scientists, executives, internal auditors, and state regulators Lead change management and training efforts on topics such as CI/CD and MLOps Read and write sample code (Python, R, and SQL) for documentation purposes Collaborate with software engineers, data scientists, data engineers, and other subject matter experts within Agile framework Supervise the work of three junior documentation engineers Develop and curate technical content—e.</description></item></channel></rss>
+Provide end-to-end documentation services for a variety of technical audiences, including data scientists, executives, internal auditors, and state regulators Lead change management and training efforts on topics such as CI/CD and MLOps Read and write sample code (Python, R, and SQL) for documentation purposes Collaborate with software engineers, data scientists, data engineers, and other subject matter experts within Agile framework Supervise the work of three junior documentation engineers Develop and curate technical content—e.</description>
+    </item>
+    
+  </channel>
+</rss>

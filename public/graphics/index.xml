@@ -1,3 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Graphics on</title><link>https://benbarksdale.netlify.app/graphics/</link><description>Recent content in Graphics on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Wed, 22 Jun 2022 23:53:31 -0400</lastBuildDate><atom:link href="https://benbarksdale.netlify.app/graphics/index.xml" rel="self" type="application/rss+xml"/><item><title>Process Flow</title><link>https://benbarksdale.netlify.app/graphics/processflow/</link><pubDate>Thu, 23 Jun 2022 01:10:48 -0400</pubDate><guid>https://benbarksdale.netlify.app/graphics/processflow/</guid><description>Process flow maps are vital to technical documentation. Whether used to describe business processes or data product architecture, they help everyone get on the same page by visualizing the abstract.
-There are several software programs out there that can be used to create process flow maps. I&amp;rsquo;m most familiar with Microsoft Visio, a program in which I&amp;rsquo;ve developed custom templates and custom stencils. I am also familiar with Miro and FigJam, for which I&amp;rsquo;ve built basic plugins using TypeScript via the Figma Plugin API.</description></item><item><title>LinkedIn Post</title><link>https://benbarksdale.netlify.app/graphics/linkedinpost/</link><pubDate>Thu, 23 Jun 2022 01:10:25 -0400</pubDate><guid>https://benbarksdale.netlify.app/graphics/linkedinpost/</guid><description>Occasionally, I&amp;rsquo;ve been asked to produce graphics for social media posts on sites like LinkedIn. My go-to software for such requests is Adobe Illustrator.
-One recent request was for a graphic celebrating my department&amp;rsquo;s cohort of incoming interns. I took pains to ensure consistency with enterprise-wide brand standards and recent section-wide guidance on social media engagement. Here&amp;rsquo;s what I came up with:</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Graphics on </title>
+    <link>https://benbarksdale.netlify.app/graphics/</link>
+    <description>Recent content in Graphics on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 22 Jun 2022 23:53:31 -0400</lastBuildDate><atom:link href="https://benbarksdale.netlify.app/graphics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Process Flow</title>
+      <link>https://benbarksdale.netlify.app/graphics/processflow/</link>
+      <pubDate>Thu, 23 Jun 2022 01:10:48 -0400</pubDate>
+      
+      <guid>https://benbarksdale.netlify.app/graphics/processflow/</guid>
+      <description>Process flow maps are vital to technical documentation. Whether used to describe business processes or data product architecture, they help everyone get on the same page by visualizing the abstract.
+There are several software programs out there that can be used to create process flow maps. I&amp;rsquo;m most familiar with Microsoft Visio, a program in which I&amp;rsquo;ve developed custom templates and custom stencils. I am also familiar with Miro and FigJam.</description>
+    </item>
+    
+    <item>
+      <title>LinkedIn Post</title>
+      <link>https://benbarksdale.netlify.app/graphics/linkedinpost/</link>
+      <pubDate>Thu, 23 Jun 2022 01:10:25 -0400</pubDate>
+      
+      <guid>https://benbarksdale.netlify.app/graphics/linkedinpost/</guid>
+      <description>Occasionally, I&amp;rsquo;ve been asked to produce graphics for social media posts on sites like LinkedIn. My go-to software for such requests is Adobe Illustrator.
+One recent request was for a graphic celebrating my department&amp;rsquo;s cohort of incoming interns. I took pains to ensure consistency with enterprise-wide brand standards and recent section-wide guidance on social media engagement. Here&amp;rsquo;s what I came up with:</description>
+    </item>
+    
+  </channel>
+</rss>
