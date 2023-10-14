@@ -63,14 +63,14 @@
   name = "RenText"
   weight = 40
   identifier = "RenText"
-  url = "code/rentext/"
+  url = "/code/rentext/"
   parent = "Code"
 
 [[main]]
   name = "Web Scraper & HTML Comparison Tool"
   weight = 50
   identifier = "webscraper"
-  url = "code/webscraper/"
+  url = "/code/webscraper/"
   parent = "Code"
 
 [[main]]
