@@ -2,8 +2,8 @@
 title: "Webscraper & HTML Text Comparison Tool"
 description: ""
 lead: ""
-date: 2023-10-14T22:31:50-04:00
-lastmod: 2023-10-14T22:31:50-04:00
+date: 2023-10-14
+lastmod: 2023-10-14
 draft: false
 images: []
 menu:
