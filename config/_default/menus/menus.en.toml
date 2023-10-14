@@ -67,6 +67,13 @@
   parent = "Code"
 
 [[main]]
+  name = "Web Scraper & HTML Comparison Tool"
+  weight = 50
+  identifier = "webscraper"
+  url = "code/webscraper/"
+  parent = "Code"
+
+[[main]]
   name = "Sample Work Products"
   weight = 10
   identifier = "sample-work-products"
