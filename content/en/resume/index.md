@@ -9,7 +9,7 @@ images: []
 
 ## Experience
 
-**Senior Documentation Engineer**<br>
+**Lead Documentation Engineer**<br>
 Nationwide Mutual Insurance Company, Enterprise Analytics Office<br>
 2019—Present
 
@@ -22,7 +22,7 @@ Nationwide Mutual Insurance Company, Enterprise Analytics Office<br>
 - Edit whitepapers on technical subjects such as natural language processing, gradient boosting machines, exploratory data analysis best practices, etc.
 - Use scripting languages (Python, R, PowerShell) to develop tools to automate tasks such as environment configuration and documentation processes
 
-**Analyst Intern**<br>
+**Technical Writer and Analyst**<br>
 US Government Accountability Office, Contracting and National Security Acquisitions<br>
 2018—2019
 
