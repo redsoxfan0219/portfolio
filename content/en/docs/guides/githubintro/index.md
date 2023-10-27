@@ -78,3 +78,5 @@ The first screen you'll see after logging in is your user dashboard. It looks li
 
 ![GitHub User Dashboard](github-main-dashboard.png  )
 
+**More Coming Soon!**
+
