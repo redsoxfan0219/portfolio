@@ -17,7 +17,7 @@ Are you a technical writer who wants to learn the command line? This guide is fo
 
 Windows, Mac, and Linux computers have slightly different command line interfaces (CLIs). Below, I include separate instructions for all three. After reading the first two sections, skip to the instructions  that apply to the system you're using.
 
-**Note for Linux users:** I base my instructions on the Ubuntu distribution. You may encounter minor differences if are using a different distribution.
+**Note for Linux users:** I base my instructions on the Ubuntu distribution. You may encounter minor differences if you are using a different distribution.
 
 ## What Is the Command Line?
 
