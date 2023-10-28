@@ -23,7 +23,7 @@ Windows, Mac, and Linux computers have slightly different command line interface
 
 The command line is a program that makes an operating system perform actions. It works by processing textual commands written by a user. In this respect, it differs from most programs, which take their directions from a user's mouse clicks. These other programs are known as "graphical user interfaces" (GUIs).
 
-The command line goes by different names. Mac and Linux call it **Terminal**. Windows has two CLIs, one called **Command Prompt** and one called **PowerShell**. Powershell is more versatile, and it is the Windows CLI I will use for instructions below.
+The command line goes by different names. Mac and Linux call it **Terminal**. Windows has two CLIs, one called **Command Prompt** and one called **PowerShell**. Powershell is more versatile, and it is the Windows CLI I will use for the instructions below.
 
 ## Why Would a Technical Writer Want to Know the Command Line?
 
