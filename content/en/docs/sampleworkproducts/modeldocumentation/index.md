@@ -95,7 +95,7 @@ The second data input includes the policyholder's claim history.
 | `claim_id` | 16-digit Unique identifier | N/A |
 | `pr_cl_fd` | Binary flag indicating prior claim filed on the policy in the last 12 months | N/A |
 | `pr_frd_nt` | Binary flag indicating prior fraud investigation of policyholder | N/A |
-|`inv_notes` | String of prior fraud investigator notes, if applicable; different incidents' notes separated by semicolon | NA |
+|`inv_notes` | String of prior fraud investigator notes, if applicable; different incidents' notes separated by semicolon | N/A |
 
 #### Rationale
 
