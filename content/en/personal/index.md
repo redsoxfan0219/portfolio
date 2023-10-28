@@ -15,7 +15,7 @@ During the pandemic, a friend introduced me to [fly fishing](https://en.wikipedi
 
 ![Ben on the Au Sable river](ausable.jpeg)
 
-I also like spending time with my family. My wife Nadia and I have been married for about five years. We recently bought kayaks and we've been enjoying taking them out on the local waterways.
+I also like spending time with my family. My wife Nadia and I have been married for about six years. We recently bought kayaks and we've been enjoying taking them out on the local waterways.
 
 ![Nadia Kayaking](nadiakayak.jpeg)
 
