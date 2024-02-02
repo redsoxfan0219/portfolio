@@ -57,7 +57,8 @@ Department of English<br>
 
 PhD, English — The Ohio State University (2020)<br>
 MA, English — The University of Alabama (2015)<br>
-BA, English — Western Michigan University (2013)
+BA, English — Western Michigan University (2013)<br>
+Software Development Certificate — Columbus State Community College (2024)
 
 ## Skills & Technology
 
@@ -104,6 +105,7 @@ BA, English — Western Michigan University (2013)
 - Bash/PowerShell/Command Line
 - Git
 - Illustrator
+- Java
 
 *Other*
 
