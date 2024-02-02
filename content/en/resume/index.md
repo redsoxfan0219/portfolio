@@ -9,9 +9,23 @@ images: []
 
 ## Experience
 
+**Technical Writing Manager - Quantitative Modeling**<br>
+[Fannie Mae](https://www.fanniemae.com/about-us/who-we-are)<br>
+Enterprise Modeling & Climate Impact Division<br>
+2023-Present
+
+- Build, lead, and enhance a shared-service technical writing function to support enterprise models
+- Set and execute model documentation strategy
+- Drive all documentation activities for the enterprise’s core models, which forecast $5+ trillion in cashflows
+- Coach, mentor, and manage team of 4 technical writers
+- Define end-to-end technical writing processes and standards, increasing compliance XX% while reducing modeler man-hours spent on documentation by XX%
+- Lead enterprise responses related to regulatory documentation requirements
+- Reduce documentation-related regulatory findings
+
 **Lead Documentation Engineer**<br>
-Nationwide Mutual Insurance Company, Enterprise Analytics Office<br>
-2019—Present
+[Nationwide Mutual Insurance Company](https://www.nationwide.com/personal/about-us/)<br>
+Enterprise Analytics Office<br>
+2019—2023
 
 - Provide end-to-end documentation services for a variety of technical audiences, including data scientists, executives, internal auditors, and state regulators
 - Lead change management and training efforts on topics such as CI/CD and MLOps
@@ -23,7 +37,8 @@ Nationwide Mutual Insurance Company, Enterprise Analytics Office<br>
 - Use scripting languages (Python, R, PowerShell) to develop tools to automate tasks such as environment configuration and documentation processes
 
 **Technical Writer and Analyst**<br>
-US Government Accountability Office, Contracting and National Security Acquisitions<br>
+[US Government Accountability Office](https://www.gao.gov/about/what-gao-does)<br>
+Contracting and National Security Acquisitions Division<br>
 2018—2019
 
 - Audited US Department of Defense major defense acquisition programs
@@ -31,7 +46,8 @@ US Government Accountability Office, Contracting and National Security Acquisiti
 
 
 **Graduate Teaching Associate**<br>
-The Ohio State University, Department of English<br>
+The Ohio State University<br>
+Department of English<br>
 2016—2018
 
 - Taught college writing and literature classes to more than 300 students
