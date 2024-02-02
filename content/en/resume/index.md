@@ -18,7 +18,7 @@ Enterprise Modeling & Climate Impact Division<br>
 - Set and execute model documentation strategy
 - Drive all documentation activities for the enterprise’s core models, which forecast $5+ trillion in cashflows
 - Coach, mentor, and manage team of 4 technical writers
-- Define end-to-end technical writing processes and standards, increasing compliance XX% while reducing modeler man-hours spent on documentation by XX%
+- Define end-to-end technical writing processes and standards, increasing compliance while reducing modeler man-hours spent on documentation
 - Lead enterprise responses related to regulatory documentation requirements
 - Reduce documentation-related regulatory findings
 
